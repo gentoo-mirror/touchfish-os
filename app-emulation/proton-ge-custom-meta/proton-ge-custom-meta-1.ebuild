@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 DESCRIPTION="Meta package for proton-ge-custom-bin, make it easier to pull in dependencies"
 HOMEPAGE="https://github.com/GloriousEggroll/proton-ge-custom"
 SRC_URI=""
