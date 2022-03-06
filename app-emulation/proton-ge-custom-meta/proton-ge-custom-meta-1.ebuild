@@ -3,7 +3,9 @@
 
 EAPI=8
 DESCRIPTION="Meta package for proton-ge-custom-bin, make it easier to pull in dependencies"
+HOMEPAGE="https://github.com/GloriousEggroll/proton-ge-custom"
 SRC_URI=""
+LICENSE="metapackage"
 
 SLOT="0"
 KEYWORDS="~amd64"
@@ -16,7 +18,7 @@ DEPEND=""
 RDEPEND="
 	dev-lang/python-exec
 	media-libs/vulkan-loader[abi_x86_32]
-	dev-libs/libusb[abi_x86_32]
+	virtual/libusb[abi_x86_32]
 	media-libs/openal[abi_x86_32]
 	x11-libs/libva[abi_x86_32]
 	media-video/ffmpeg
