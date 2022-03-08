@@ -6,6 +6,44 @@ overlays.
 Unlike [lazychn](https://github.com/CHN-beta/lazychn), this overlay is prepared for other users, not just me.
 I will try to keep packages here up to date and fix any issues as soon as possible.
 
+# How to use this?
+
+You could use the following command to add this overlay to your system:
+
+```
+sudo eselect repository enable touchfish-os
+```
+
+If you prefer `layman`, you can use the following command:
+
+```
+sudo layman -a touchfish-os
+```
+
+After that, sync repositories:
+
+```
+sudo emerge --sync
+```
+
+After that, you are able to install packages from this overlay.
+
+It is a good habit to mask all of the packages in other overlay and only unmask as you need, which could prevent your
+system from being breaked by third party overlays.
+Although this overlay do not contains such dangerous packages, I still recommend you to do that.
+
+To mask all packages from this overlay, you can use the following command:
+
+```
+echo "*/*::touchfish-os" | sudo tee -a /etc/portage/package.mask
+```
+
+After that, unmask as you needed. For example:
+
+```
+sudo emerge -av nameof --autounmask
+```
+
 # Why this name?
 
 The word "touch fish" in Chinese "摸鱼" is a cute and playful way to express "slacking off" during working hours.
