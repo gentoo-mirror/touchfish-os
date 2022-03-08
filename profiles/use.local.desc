@@ -1,0 +1,6 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+dev-cpp/cppcoro:shared - Build shared library instead of static library.
+dev-cpp/tgbot-cpp:shared - Build shared library instead of static library.
