@@ -1,6 +1,6 @@
 diff --color -u -r GE-Proton7-8/proton GE-Proton7-8-patched/proton
---- a/GE-Proton7-8/proton	2022-03-12 13:17:38.888543306 +0800
-+++ b/GE-Proton7-8/proton	2022-03-12 13:18:46.559290671 +0800
+--- a/GE-Proton7-9/proton	2022-03-12 13:17:38.888543306 +0800
++++ b/GE-Proton7-9/proton	2022-03-12 13:18:46.559290671 +0800
 @@ -734,6 +734,10 @@
  
              self.migrate_user_paths()
