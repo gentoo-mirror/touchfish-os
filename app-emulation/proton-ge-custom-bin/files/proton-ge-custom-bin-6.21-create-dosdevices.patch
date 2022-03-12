@@ -1,0 +1,16 @@
+diff --color -u -r Proton-6.21-GE-2/proton Proton-6.21-GE-2-patched/proton
+--- a/Proton-6.21-GE-2/proton	2022-03-12 13:13:09.623813640 +0800
++++ b/Proton-6.21-GE-2/proton	2022-03-12 13:14:34.066620385 +0800
+@@ -649,9 +649,9 @@
+             if not os.path.exists(self.prefix_dir):
+                 makedirs(self.prefix_dir + "/drive_c")
+                 set_dir_casefold_bit(self.prefix_dir + "/drive_c")
+-                if not os.path.exists(self.prefix_dir + "/dosdevices"):
+-                    makedirs(self.prefix_dir + "/dosdevices")
+-                    set_dir_casefold_bit(self.prefix_dir + "/dosdevices")
++            if not os.path.exists(self.prefix_dir + "/dosdevices"):
++                makedirs(self.prefix_dir + "/dosdevices")
++                set_dir_casefold_bit(self.prefix_dir + "/dosdevices")
+ 
+             if not os.path.exists(self.prefix_dir + "/user.reg"):
+                 self.copy_pfx()

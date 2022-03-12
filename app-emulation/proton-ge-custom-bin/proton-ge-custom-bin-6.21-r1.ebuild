@@ -5,8 +5,8 @@ EAPI=8
 
 DESCRIPTION="A fancy custom distribution of Valves Proton with various patches"
 HOMEPAGE="https://github.com/GloriousEggroll/proton-ge-custom"
-SRC_URI="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-8/GE-Proton7-8.tar.gz -> ${PN}-${PV}.tar.gz"
-_internal_name=GE-Proton7-8
+SRC_URI="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/6.21-GE-2/Proton-6.21-GE-2.tar.gz -> ${PN}-${PV}.tar.gz"
+_internal_name=Proton-6.21-GE-2
 
 LICENSE=('BSD' 'LGPL' 'zlib' 'MIT' 'MPL' 'OFL' 'Proton')
 SLOT="${PV}"
@@ -18,8 +18,8 @@ RDEPEND="
 	media-libs/vulkan-loader[abi_x86_32]"
 
 QA_PREBUILT="*"
-
 S="${WORKDIR}"
+PATCHES=("${FILESDIR}/proton-ge-custom-bin-6.21-create-dosdevices.patch")
 
 pkg_pretend() {
 	einfo "I choose to not depend on many other packages to simplify the packing process, and this package indeed have a lot of bundled libraries. According to the document of upstream, it is enough to do so."
