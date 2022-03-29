@@ -4,3 +4,4 @@
 
 dev-cpp/cppcoro:shared - Build shared library instead of static library.
 dev-cpp/tgbot-cpp:shared - Build shared library instead of static library.
+virtual/linux-sources:firmware - Install linux kernel firmware
