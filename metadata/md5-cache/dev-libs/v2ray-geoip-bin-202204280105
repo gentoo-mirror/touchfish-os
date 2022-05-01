@@ -7,4 +7,4 @@ LICENSE=CC-BY-SA-4.0
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/v2fly/geoip/releases/download/202204280105/geoip.dat -> v2ray-geoip-bin-202204280105.dat
-_md5_=cc4a2c42340770a988fb78adb45796cf
+_md5_=45fd9e0f5bdc5a87379d7704b1763ef3
