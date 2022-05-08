@@ -9,5 +9,6 @@ dev-libs/v2ray-domain-list-community-bin 20220505022319: Community managed domai
 dev-libs/v2ray-geoip-bin 202205050051: GeoIP for V2Ray.
 dev-util/mingw64-runtime 9.0.0_p220321: Free Win64 runtime and import library definitions
 net-proxy/Xray 1.5.5: Xray, Penetrates Everything.
+net-proxy/v2ray 4.45.0: A platform for building proxies to bypass network restrictions.
 sys-kernel/xanmod-apparmor-sources 5.17.0 5.17.1-r1 5.17.2 5.17.3 5.17.4 5.17.5: kernel sources including xanmod, gentoo and apparmor(from ubuntu) patches.
 virtual/linux-sources 1: Virtual for Linux kernel sources

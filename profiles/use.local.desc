@@ -17,4 +17,5 @@ dev-libs/poco:pagecompiler - Simple compiler translating HTML pages containing e
 dev-libs/poco:pocodoc - POCO documentation generator
 dev-libs/poco:util - Several utility classes (like logger, timer, config file parser)
 dev-libs/poco:zip - Add support for the zip & gz archive formats
+net-proxy/v2ray:tool - Build the additional tool: v2ctl
 virtual/linux-sources:firmware - Install linux kernel firmware
