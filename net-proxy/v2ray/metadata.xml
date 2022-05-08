@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="tool">Build the additional tool: v2ctl</flag>
+	</use>
+	<maintainer type="person">
+		<email>chn@chn.moe</email>
+		<name>Haonan Chen</name>
+	</maintainer>
+</pkgmetadata>
