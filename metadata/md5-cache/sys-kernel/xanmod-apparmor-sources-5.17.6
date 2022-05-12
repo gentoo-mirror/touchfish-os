@@ -1,0 +1,15 @@
+BDEPEND=!build? ( sys-apps/sed )
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DESCRIPTION=kernel sources including xanmod, gentoo and apparmor(from ubuntu) patches.
+EAPI=8
+HOMEPAGE=https://www.kernel.org/ https://wiki.gentoo.org/wiki/Kernel https://xanmod.org
+INHERIT=kernel-2
+IUSE=symlink build
+KEYWORDS=~amd64
+LICENSE=CDDL
+RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RESTRICT=binchecks strip
+SLOT=5.17.6
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.17.tar.xz https://github.com/xanmod/linux/releases/download//5.17.6-xanmod1/patch-5.17.6-xanmod1.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.17-10.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.17-10.base.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.17-10.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.17-10.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.17-10.extras.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.17-10.extras.tar.xz
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	kernel-2	7243c5ee4d1a26f42930f137a20ed659
+_md5_=a85e745241844c0fc363f604bfefe2ad
