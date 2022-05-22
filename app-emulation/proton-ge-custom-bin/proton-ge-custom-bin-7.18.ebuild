@@ -5,8 +5,8 @@ EAPI=8
 
 DESCRIPTION="A fancy custom distribution of Valves Proton with various patches"
 HOMEPAGE="https://github.com/GloriousEggroll/proton-ge-custom"
-SRC_URI="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-9/GE-Proton7-9.tar.gz -> ${P}.tar.gz"
-_internal_name=GE-Proton7-9
+SRC_URI="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-18/GE-Proton7-18.tar.gz -> ${P}.tar.gz"
+_internal_name=GE-Proton7-18
 
 LICENSE=('BSD' 'LGPL' 'zlib' 'MIT' 'MPL' 'OFL' 'Proton')
 SLOT="${PV}"
@@ -19,7 +19,7 @@ RDEPEND="
 
 QA_PREBUILT="*"
 S="${WORKDIR}"
-PATCHES=("${FILESDIR}/proton-ge-custom-bin-7.9-create-dosdevices.patch")
+PATCHES=("${FILESDIR}/proton-ge-custom-bin-7.18-create-dosdevices.patch")
 
 pkg_pretend() {
 	einfo "I choose to not depend on many other packages to simplify the packing process, and this package indeed have a lot of bundled libraries. According to the document of upstream, it is enough to do so."

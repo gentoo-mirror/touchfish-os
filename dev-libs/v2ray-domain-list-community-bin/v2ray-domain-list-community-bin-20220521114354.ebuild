@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="Community managed domain list for V2Ray."
 HOMEPAGE="https://github.com/v2fly/domain-list-community"
-SRC_URI="https://github.com/v2fly/domain-list-community/releases/download/${PV}/dlc.dat -> ${PN}-${PV}.dat"
+SRC_URI="https://github.com/v2fly/domain-list-community/releases/download/${PV}/dlc.dat -> ${P}.dat"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 S="${WORKDIR}"
 
@@ -21,5 +21,5 @@ BDEPEND=""
 
 src_install() {
 	insinto /usr/share/v2ray
-	newins "${DISTDIR}/${PN}-${PV}.dat" geosite.dat
+	newins "${DISTDIR}/${P}.dat" geosite.dat
 }
