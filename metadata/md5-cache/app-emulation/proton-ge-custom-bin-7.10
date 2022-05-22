@@ -8,4 +8,4 @@ RDEPEND=media-libs/mesa[vulkan,abi_x86_32] media-libs/vulkan-loader[abi_x86_32]
 RESTRICT=mirror strip
 SLOT=7.10
 SRC_URI=https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-10/GE-Proton7-10.tar.gz -> proton-ge-custom-bin-7.10.tar.gz
-_md5_=a7e8cba2e501faa9ad0f8d973d985335
+_md5_=5e616e700d1c665f1426a10fc52df2d4
