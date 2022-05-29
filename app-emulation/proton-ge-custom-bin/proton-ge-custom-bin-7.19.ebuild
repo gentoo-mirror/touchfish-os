@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="A fancy custom distribution of Valves Proton with various patches"
 HOMEPAGE="https://github.com/GloriousEggroll/proton-ge-custom"
-SRC_URI="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-18/GE-Proton7-19.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-19/GE-Proton7-19.tar.gz -> ${P}.tar.gz"
 _internal_name=GE-Proton7-19
 
 LICENSE=('BSD' 'LGPL' 'zlib' 'MIT' 'MPL' 'OFL' 'Proton')
