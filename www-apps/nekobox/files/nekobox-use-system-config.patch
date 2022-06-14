@@ -1,12 +1,12 @@
-diff --git a/main.go b/main.go
-index de3456c..87aeb49 100644
---- a/main.go
-+++ b/main.go
-@@ -7,6 +7,7 @@ import (
+diff --git a/routers/router.go b/routers/router.go
+index ef0e02a..d284273 100644
+--- a/routers/router.go
++++ b/routers/router.go
+@@ -14,6 +14,7 @@ var (
  )
  
- func main() {
+ func init() {
 +	beego.LoadAppConfig("ini", "/etc/nekobox/nekobox.conf")
- 	beego.BConfig.ServerName = "NekoBox"
- 	beego.BConfig.WebConfig.Session.SessionOn = true
- 	beego.BConfig.WebConfig.Session.SessionName = "nekoboxSession"
+ 	beego.InsertFilter("*", beego.BeforeExec, func(c *context.Context) {
+ 		c.Input.Data()["title"] = beego.AppConfig.String("title")
+ 		c.Input.Data()["icp"] = beego.AppConfig.String("icp")
