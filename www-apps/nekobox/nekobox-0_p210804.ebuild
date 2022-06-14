@@ -24,6 +24,8 @@ DEPEND=""
 RDEPEND=""
 
 S="${WORKDIR}/NekoBox-${_commit}"
+PATCHES=("${FILESDIR}/nekobox-use-system-config.patch")
+
 src_compile() {
 	ego build -v -work -o "bin/nekobox" -trimpath -ldflags "-s -w" .
 }
