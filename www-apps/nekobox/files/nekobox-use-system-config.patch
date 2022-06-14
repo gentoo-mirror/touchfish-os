@@ -1,0 +1,12 @@
+diff --git a/main.go b/main.go
+index de3456c..87aeb49 100644
+--- a/main.go
++++ b/main.go
+@@ -7,6 +7,7 @@ import (
+ )
+ 
+ func main() {
++	beego.LoadAppConfig("ini", "/etc/nekobox/nekobox.conf")
+ 	beego.BConfig.ServerName = "NekoBox"
+ 	beego.BConfig.WebConfig.Session.SessionOn = true
+ 	beego.BConfig.WebConfig.Session.SessionName = "nekoboxSession"
