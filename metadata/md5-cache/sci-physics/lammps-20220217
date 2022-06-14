@@ -1,0 +1,17 @@
+BDEPEND=sys-devel/make >=dev-util/cmake-3.20.5 virtual/fortran
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=app-arch/gzip media-libs/libpng:0 sys-libs/zlib mpi? ( virtual/mpi sci-libs/hdf5:=[mpi] ) python? ( python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) ) sci-libs/voro++ virtual/blas virtual/lapack sci-libs/fftw:3.0= sci-libs/netcdf:= cuda? ( >=dev-util/nvidia-cuda-toolkit-4.2.9-r1:= ) opencl? ( virtual/opencl ) hip? ( dev-util/hip:= ) dev-cpp/eigen:3 test? ( dev-cpp/gtest ) virtual/fortran
+DESCRIPTION=Large-scale Atomic/Molecular Massively Parallel Simulator
+EAPI=8
+HOMEPAGE=https://lammps.sandia.gov/
+INHERIT=cmake fortran-2 distutils-r1
+IUSE=cuda examples gzip hip lammps-memalign mpi opencl python test python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-arch/gzip media-libs/libpng:0 sys-libs/zlib mpi? ( virtual/mpi sci-libs/hdf5:=[mpi] ) python? ( python_targets_python3_8? ( >=dev-lang/python-3.8.12_p1-r1:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.9-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.0_p1-r1:3.10 ) ) sci-libs/voro++ virtual/blas virtual/lapack sci-libs/fftw:3.0= sci-libs/netcdf:= cuda? ( >=dev-util/nvidia-cuda-toolkit-4.2.9-r1:= ) opencl? ( virtual/opencl ) hip? ( dev-util/hip:= ) dev-cpp/eigen:3 virtual/fortran
+REQUIRED_USE=python? ( || ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 ) ) ?? ( cuda opencl hip )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://download.lammps.org/tars/lammps-17Feb2022.tar.gz
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	90e2b29417d53718328f3a95227137a0	fortran-2	72d28c6872beb1e7cb99684b0ae4715d	multibuild	d26d81f242cb193d899a72bca423d0bd	python-utils-r1	648fe6a039e87233d7f48da72cadb76f	python-r1	e2883e4f04f0503cdf7f2954e2bf5e15	distutils-r1	10a93585889c3ca7651cbcd2ee831e47
+_md5_=e651bdd03a581e37b416abe5bc00f455
