@@ -1,14 +1,13 @@
 [Unit]
 Description=nekobox Service
-Documentation=https://github.com/xtls
-After=network.target nss-lookup.target
+Documentation=https://github.com/NekoWheel/NekoBox
+After=network.target
 
 [Service]
 DynamicUser=yes
-CacheDirectory=nekobox
-LogsDirectory=nekobox
-RuntimeDirectory=nekobox
-StateDirectory=nekobox
+User=nekobox
+Group=nekobox
+WorkingDirectory=/usr/share/nekobox
 CapabilityBoundingSet=CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
