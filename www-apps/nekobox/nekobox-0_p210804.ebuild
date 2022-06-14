@@ -24,7 +24,6 @@ DEPEND=""
 RDEPEND=""
 
 S="${WORKDIR}/NekoBox-${_commit}"
-PATCHES=("${FILESDIR}/nekobox-use-system-config.patch")
 
 src_compile() {
 	ego build -v -work -o "bin/nekobox" -trimpath -ldflags "-s -w" .
@@ -36,4 +35,6 @@ src_install() {
 	insinto /etc/nekobox
 	newins conf/app.sample.conf nekobox.conf
 	systemd_dounit "${FILESDIR}/nekobox.service"
+
+	dosym ../../../../etc/nekobox/nekobox.conf /usr/share/nekobox/conf/app.conf
 }
