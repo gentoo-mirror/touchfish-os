@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-_CUDA_VER=11.7
+_CUDA_VER=11.6
 
 DESCRIPTION="NVIDIA HPC SDK"
 HOMEPAGE="https://developer.nvidia.com/hpc-sdk"

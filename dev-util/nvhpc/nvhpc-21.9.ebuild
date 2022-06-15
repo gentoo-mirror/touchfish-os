@@ -29,6 +29,8 @@ src_configure() {
 }
 
 src_install() {
+    addpredict /dev/nvidiactl
+
     NVHPC_SILENT=true \
     NVHPC_INSTALL_DIR="${D}/opt/nvidia" \
     bash ./install || die
