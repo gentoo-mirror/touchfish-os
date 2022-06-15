@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DEPEND=sys-cluster/modules
+DESCRIPTION=NVIDIA HPC SDK modulefiles
+EAPI=8
+KEYWORDS=~amd64
+RDEPEND=sys-cluster/modules
+RESTRICT=mirror strip
+SLOT=0
+_md5_=7e17cb3e2992be95f1a74bcd0bd043fd
