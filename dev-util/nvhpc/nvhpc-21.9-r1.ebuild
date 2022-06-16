@@ -2,11 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-_CUDA_VER=11.7
 
 DESCRIPTION="NVIDIA HPC SDK"
 HOMEPAGE="https://developer.nvidia.com/hpc-sdk"
-SRC_URI="https://developer.download.nvidia.com/hpc-sdk/${PV}/${PN}_20${PV:0:2}_${PV//.}_Linux_x86_64_cuda_${_CUDA_VER}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://developer.download.nvidia.com/hpc-sdk/${PV}/${PN}_20${PV:0:2}_${PV//.}_Linux_x86_64_cuda_multi.tar.gz -> ${P}.tar.gz"
 
 LICENSE=EULA
 SLOT=${PV}
@@ -21,7 +20,7 @@ BDEPEND=""
 
 QA_PREBUILT="*"
 
-S="${WORKDIR}/${PN}_20${PV:0:2}_${PV//.}_Linux_x86_64_cuda_${_CUDA_VER}"
+S="${WORKDIR}/${PN}_20${PV:0:2}_${PV//.}_Linux_x86_64_cuda_multi"
 
 src_configure() {
 	default
