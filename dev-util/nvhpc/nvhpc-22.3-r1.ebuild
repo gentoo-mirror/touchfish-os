@@ -31,16 +31,16 @@ src_install() {
     addpredict /dev/nvidiactl
 
     NVHPC_SILENT=true \
-    NVHPC_INSTALL_DIR="${D}/opt/nvidia" \
+    NVHPC_INSTALL_DIR="${D}/opt/nvidia/hpc_sdk" \
     bash ./install || die
 
     # Remove references to $pkgdir from module files
-    cd "${D}/opt/nvidia/modulefiles" || die
+    cd "${D}/opt/nvidia/hpc_sdk/modulefiles" || die
     find . -type f -exec sed -i "s@${D}@@g" {} \; || die
 
     # Install license
     cd "${S}/install_components/Linux_x86_64/${PV}/compilers/license" || die
     install -Dm644 LICENSE.txt "${D}/usr/share/licenses/${P}/LICENSE.txt" || die
 
-    rm -r "${D}/opt/nvidia/Linux_x86_64/20${PV:0:2}" || die
+    rm -r "${D}/opt/nvidia/hpc_sdk/Linux_x86_64/20${PV:0:2}" || die
 }

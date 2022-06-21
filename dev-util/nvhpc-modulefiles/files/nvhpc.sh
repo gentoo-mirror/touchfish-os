@@ -1,1 +1,1 @@
-module use /opt/nvidia/modulefiles
+module use /opt/nvidia/hpc_sdk/modulefiles
