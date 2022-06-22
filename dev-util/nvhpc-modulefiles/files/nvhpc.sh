@@ -1,1 +1,0 @@
-module use /opt/nvidia/hpc_sdk/modulefiles

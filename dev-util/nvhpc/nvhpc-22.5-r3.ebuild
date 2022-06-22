@@ -14,7 +14,7 @@ IUSE=""
 
 RESTRICT="mirror strip"
 
-DEPEND="sys-process/numactl virtual/jre sys-cluster/modules dev-util/nvhpc-modulefiles"
+DEPEND="sys-process/numactl virtual/jre sys-cluster/modules"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
