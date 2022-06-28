@@ -1,0 +1,11 @@
+DEFINED_PHASES=install pretend
+DESCRIPTION=A fancy custom distribution of Valves Proton with various patches
+EAPI=8
+HOMEPAGE=https://github.com/GloriousEggroll/proton-ge-custom
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=media-libs/mesa[vulkan,abi_x86_32] media-libs/vulkan-loader[abi_x86_32]
+RESTRICT=mirror strip
+SLOT=7.23
+SRC_URI=https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-23/GE-Proton7-23.tar.gz -> proton-ge-custom-bin-7.23.tar.gz
+_md5_=c4a5ab53e21872d298d849290df5de20
