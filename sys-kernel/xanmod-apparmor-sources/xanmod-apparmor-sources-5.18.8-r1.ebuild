@@ -18,13 +18,14 @@ KEYWORDS="~amd64"
 inherit kernel-2
 detect_version
 
-DESCRIPTION="kernel sources including xanmod, gentoo and apparmor(from ubuntu) patches."
+DESCRIPTION="kernel sources including xanmod, gentoo, cjktty and apparmor patches."
 SRC_URI="
 	${KERNEL_BASE_URI}/linux-${KV_MAJOR}.${KV_MINOR}.tar.xz
 	${XANMOD_URI}/${OKV}-xanmod${XANMOD_VERSION}/patch-${OKV}-xanmod${XANMOD_VERSION}.xz
+	https://raw.githubusercontent.com/zhmars/cjktty-patches/master/v${KV_MAJOR}.x/cjktty-${KV_MAJOR}.${KV_MINOR}.patch
 	${GENPATCHES_URI}"
 
-UNIPATCH_LIST+=" ${DISTDIR}/patch-${OKV}-xanmod${XANMOD_VERSION}.xz ${FILESDIR}/z1950_cifs-fix-minor-compile-warning.patch "
+UNIPATCH_LIST+=" ${DISTDIR}/patch-${OKV}-xanmod${XANMOD_VERSION}.xz ${FILESDIR}/z1950_cifs-fix-minor-compile-warning.patch ${DISTDIR}/cjktty-${KV_MAJOR}.${KV_MINOR}.patch "
 
 UNIPATCH_LIST+=" ${FILESDIR}/xanmod-apparmor-sources-5.17.0-apparmor-0.patch "
 UNIPATCH_LIST+=" ${FILESDIR}/xanmod-apparmor-sources-5.17.0-apparmor-1.patch "
