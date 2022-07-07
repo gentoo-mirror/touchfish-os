@@ -12,6 +12,7 @@ dev-libs/v2ray-domain-list-community-bin 20220628031741: Community managed domai
 dev-libs/v2ray-geoip-bin 202206230045: GeoIP for V2Ray.
 dev-util/mingw64-runtime 9.0.0_p220321: Free Win64 runtime and import library definitions
 dev-util/nvhpc 22.5-r3: NVIDIA HPC SDK
+dev-util/seer 1.7: a gui frontend to gdb
 net-proxy/Xray 1.5.5-r2: Xray, Penetrates Everything.
 net-proxy/v2ray 4.45.0 4.45.2: A platform for building proxies to bypass network restrictions.
 sci-chemistry/ovito 3.7.5: Open Visualization Tool
