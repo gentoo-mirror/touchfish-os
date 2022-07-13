@@ -35,6 +35,7 @@ src_configure() {
 	local mycmakeargs=(
 		-DOpenGL_GL_PREFERENCE=GLVND
 		-DOVITO_BUILD_DOCUMENTATION=$(usex doc ON OFF)
+		-DOVITO_USE_PRECOMPILED_HEADERS=OFF
 	)
 	cmake_src_configure
 }
