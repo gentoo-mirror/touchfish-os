@@ -10,8 +10,9 @@ dev-libs/boost 1.79.0: Boost Libraries for C++
 dev-libs/poco 1.11.2: C++ libraries for building network-based applications
 dev-libs/v2ray-domain-list-community-bin 20220628031741: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip-bin 202206230045: GeoIP for V2Ray.
+dev-util/intel-hpckit 2022.2.0.191: Intel® oneAPI HPC Toolkit
 dev-util/mingw64-runtime 9.0.0_p220321: Free Win64 runtime and import library definitions
-dev-util/nvhpc 22.5-r3: NVIDIA HPC SDK
+dev-util/nvhpc 22.5-r4: NVIDIA HPC SDK
 dev-util/seer 1.7: a gui frontend to gdb
 net-proxy/Xray 1.5.5-r2: Xray, Penetrates Everything.
 net-proxy/v2ray 4.45.0 4.45.2: A platform for building proxies to bypass network restrictions.
