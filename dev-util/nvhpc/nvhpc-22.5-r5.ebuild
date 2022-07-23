@@ -8,12 +8,13 @@ inherit unpacker
 DESCRIPTION="NVIDIA HPC SDK"
 HOMEPAGE="https://developer.nvidia.com/hpc-sdk"
 SRC_URI="https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-${PV//./-}_${PV}_amd64.deb
-    https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-${PV//./-}-cuda-multi_${PV}_amd64.deb"
+    https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-${PV//./-}-cuda-multi_${PV}_amd64.deb
+    https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/./nvhpc-20${PV%.*}_${PV}_amd64.deb"
 _cuda_version=11.7
 _nvhpc_prefix="/opt/nvidia/hpc_sdk/Linux_x86_64/${PV}"
 
 LICENSE=EULA
-SLOT=${PV}
+SLOT=0
 KEYWORDS="~amd64"
 IUSE=""
 
@@ -28,6 +29,7 @@ QA_PREBUILT="*"
 src_unpack() {
     unpack_deb nvhpc-${PV//./-}_${PV}_amd64.deb
     unpack_deb nvhpc-${PV//./-}-cuda-multi_${PV}_amd64.deb
+    unpack_deb nvhpc-20${PV%.*}_${PV}_amd64.deb
     S="${WORKDIR}"
 }
 
