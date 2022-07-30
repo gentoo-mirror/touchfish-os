@@ -20,6 +20,7 @@ RESTRICT="test"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-ins-into-lib64.patch
+	"${FILESDIR}"/${PN}-include-utility.patch
 )
 
 src_configure() {
