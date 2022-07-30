@@ -1,5 +1,5 @@
 app-backup/snapper-gui 220626: GUI for snapper, a tool for Linux filesystem snapshot management
-app-emulation/proton-ge-custom-bin 6.21-r1 7.8-r1 7.9-r2 7.10 7.14 7.15 7.16 7.17 7.18 7.19 7.20 7.23 7.24: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 6.21-r1 7.8-r1 7.9-r2 7.10 7.14 7.15 7.16 7.17 7.18 7.19 7.20 7.23 7.24 7.27: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 dev-cpp/cpp-httplib 0.10.7 0.10.8: A C++ header-only HTTP/HTTPS server and client library
 dev-cpp/cppcoro 210105: A library of C++ coroutine abstractions for the coroutines TS
