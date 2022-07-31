@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="A date and time library based on the C++11/14/17 <chrono> header"
 HOMEPAGE="https://github.com/HowardHinnant/date"
-SRC_URI="https://github.com/HowardHinnant/${PN}/archive/refs/tags/v${PV}.zip -> ${P}.zip"
+SRC_URI="https://github.com/HowardHinnant/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
