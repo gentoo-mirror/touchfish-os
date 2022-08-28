@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=A date and time library based on the C++11/14/17 <chrono> header
+EAPI=8
+HOMEPAGE=https://github.com/HowardHinnant/date
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=c0a3ea7103984cc2de180e7cea497f65
