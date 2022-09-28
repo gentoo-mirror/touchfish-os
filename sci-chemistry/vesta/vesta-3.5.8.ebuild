@@ -18,7 +18,7 @@ RESTRICT="mirror strip"
 
 DEPEND=""
 RDEPEND="
-	x11-libs/gtk+[wayland]
+	x11-libs/gtk+:3[wayland]
 	virtual/glu
 	dev-util/desktop-file-utils
 	x11-libs/libXtst
