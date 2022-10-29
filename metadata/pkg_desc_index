@@ -14,7 +14,7 @@ dev-libs/boost 1.80.0: Boost Libraries for C++
 dev-libs/v2ray-domain-list-community-bin 20220927022658: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip-bin 202209220104: GeoIP for V2Ray.
 dev-util/intel-hpckit 2022.2.0.191: Intel® oneAPI HPC Toolkit
-dev-util/nvhpc 22.5-r5 22.7: NVIDIA HPC SDK
+dev-util/nvhpc 22.5-r6 22.7-r1 22.9: NVIDIA HPC SDK
 net-proxy/Xray 1.6.0: Xray, Penetrates Everything.
 net-proxy/v2ray 5.1.0: A platform for building proxies to bypass network restrictions.
 sci-chemistry/ovito 3.7.5 3.7.8 3.7.9: Open Visualization Tool
