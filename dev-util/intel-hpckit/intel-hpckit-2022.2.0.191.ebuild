@@ -106,7 +106,7 @@ SRC_URI="https://apt.repos.intel.com/oneapi/pool/main/intel-basekit-2022.2.0-262
 	https://apt.repos.intel.com/oneapi/pool/main/intel-oneapi-vtune-eclipse-plugin-vtune-2022.3.0-195_all.deb"
 
 LICENSE=EULA
-SLOT=${PV}
+SLOT=0
 KEYWORDS="~amd64"
 IUSE=""
 
