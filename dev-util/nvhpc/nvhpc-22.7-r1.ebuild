@@ -28,7 +28,6 @@ QA_PREBUILT="*"
 src_unpack() {
     unpack_deb nvhpc-${PV//./-}_${PV}_amd64.deb
     unpack_deb nvhpc-${PV//./-}-cuda-multi_${PV}_amd64.deb
-    unpack_deb nvhpc-20${PV%.*}_${PV}_amd64.deb
     S="${WORKDIR}"
 }
 
