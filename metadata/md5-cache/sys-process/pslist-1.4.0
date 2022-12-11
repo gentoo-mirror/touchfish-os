@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=list all child processes for a given process ID
+EAPI=8
+HOMEPAGE=https://devel.ringlet.net/sysutils/pslist/
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-lang/perl
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://devel.ringlet.net/files/sys/pslist/pslist-1.4.0.tar.xz
+_md5_=4f2b11f7e3aa5bc34672162c2b5e1edb
