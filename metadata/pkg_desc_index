@@ -19,7 +19,7 @@ dev-python/seekpath 2.0.1: Obtain and visualize k-vector coefficients and obtain
 dev-python/spglib 2.0.2: Python bindings for spglib.
 dev-util/intel-hpckit 2022.2.0.191 2022.3.0.8751: Intel® oneAPI HPC Toolkit
 dev-util/nvhpc 22.5-r6 22.7-r1 22.9 22.11: NVIDIA HPC SDK
-net-proxy/Xray 1.6.0 1.6.1: Xray, Penetrates Everything.
+net-proxy/Xray 1.6.0 1.6.1 1.6.6.2: Xray, Penetrates Everything.
 net-proxy/v2ray 5.1.0: A platform for building proxies to bypass network restrictions.
 sci-chemistry/ovito 3.7.5 3.7.8 3.7.9 3.7.11: Open Visualization Tool
 sci-chemistry/vesta 3.5.5-r1 3.5.7-r2 3.5.8: Visualization for Electronic and STructural Analysis
