@@ -7,7 +7,7 @@ MODULES_OPTIONAL_USE="driver"
 inherit desktop flag-o-matic linux-mod multilib readme.gentoo-r1 \
 	systemd toolchain-funcs unpacker user-info
 
-NV_KERNEL_MAX="6.0"
+NV_KERNEL_MAX="6.1"
 NV_URI="https://download.nvidia.com/XFree86/"
 
 DESCRIPTION="NVIDIA Accelerated Graphics Driver"
@@ -36,7 +36,7 @@ COMMON_DEPEND="
 		net-libs/libtirpc:=
 	)
 	tools? (
-		|| ( >=app-accessibility/at-spi2-core-2.46:2 dev-libs/atk )
+		>=app-accessibility/at-spi2-core-2.46:2
 		dev-libs/glib:2
 		dev-libs/jansson:=
 		media-libs/harfbuzz:=
@@ -81,10 +81,10 @@ BDEPEND="
 QA_PREBUILT="lib/firmware/* opt/bin/* usr/lib*"
 
 PATCHES=(
-	"${FILESDIR}"/nvidia-drivers-470.141.03-clang15.patch
+	"${FILESDIR}"/nvidia-drivers-525.23-clang15.patch
+	"${FILESDIR}"/nvidia-kernel-module-source-515.86.01-raw-ldflags.patch
 	"${FILESDIR}"/nvidia-modprobe-390.141-uvm-perms.patch
 	"${FILESDIR}"/nvidia-settings-390.144-desktop.patch
-	"${FILESDIR}"/nvidia-settings-390.144-no-gtk2.patch
 	"${FILESDIR}"/nvidia-settings-390.144-raw-ldflags.patch
 )
 
@@ -97,16 +97,12 @@ pkg_setup() {
 		~SYSVIPC
 		~!LOCKDEP
 		~!SLUB_DEBUG_ON
-		~!X86_KERNEL_IBT
 		!DEBUG_MUTEXES"
 	local ERROR_DRM_KMS_HELPER="CONFIG_DRM_KMS_HELPER: is not set but needed for Xorg auto-detection
 	of drivers (no custom config), and for wayland / nvidia-drm.modeset=1.
 	Cannot be directly selected in the kernel's menuconfig, and may need
 	selection of a DRM device even if unused, e.g. CONFIG_DRM_AMDGPU=m or
 	DRM_I915=y, DRM_NOUVEAU=m also acceptable if a module and not built-in."
-	local ERROR_X86_KERNEL_IBT="CONFIG_X86_KERNEL_IBT: is set, be warned the modules may not load.
-	If run into problems, either unset or pass ibt=off to the kernel.
-	https://github.com/NVIDIA/open-gpu-kernel-modules/issues/256"
 
 	use amd64 && kernel_is -ge 5 8 && CONFIG_CHECK+=" X86_PAT" #817764
 
@@ -169,12 +165,12 @@ pkg_setup() {
 	fi
 
 	if kernel_is -ge 5 18 13; then
-		# https://github.com/NVIDIA/open-gpu-kernel-modules/issues/341
 		if linux_chkconfig_present FB_SIMPLE; then
 			warn+=(
-				"  CONFIG_FB_SIMPLE: is set, recommended to disable and switch to FB_EFI"
-				"    as it is currently known broken with >=kernel-5.18.13 + NVIDIA."
+				"  CONFIG_FB_SIMPLE: is set, recommended to disable and switch to FB_EFI or"
+				"    FB_VESA as it currently may be broken with >=kernel-5.18.13 + NVIDIA:"
 				"    https://github.com/NVIDIA/open-gpu-kernel-modules/issues/341"
+				"    (feel free to ignore this if it works for you)"
 			)
 		fi
 
@@ -232,7 +228,7 @@ src_prepare() {
 	mv NVIDIA-kernel-module-source-${PV} kernel-module-source || die
 
 	eapply --directory=kernel-module-source/kernel-open \
-		-p2 "${FILESDIR}"/nvidia-drivers-470.141.03-clang15.patch
+		-p2 "${FILESDIR}"/nvidia-drivers-525.23-clang15.patch
 
 	default
 
@@ -264,11 +260,13 @@ options nvidia NVreg_OpenRmEnableUnsupportedGpus=1' "${T}"/nvidia.conf || die
 
 src_compile() {
 	tc-export AR CC CXX LD OBJCOPY OBJDUMP
+	local -x RAW_LDFLAGS="$(get_abi_LDFLAGS) $(raw-ldflags)" # raw-ldflags.patch
 
 	NV_ARGS=(
 		PREFIX="${EPREFIX}"/usr
 		HOST_CC="$(tc-getBUILD_CC)"
 		HOST_LD="$(tc-getBUILD_LD)"
+		BUILD_GTK2LIB=
 		NV_USE_BUNDLED_LIBJANSSON=0
 		NV_VERBOSE=1 DO_STRIP= MANPAGE_GZIP= OUTPUTDIR=out
 		WAYLAND_AVAILABLE=$(usex wayland 1 0)
@@ -299,12 +297,12 @@ src_compile() {
 
 	if use tools; then
 		# cflags: avoid noisy logs, only use here and set first to let override
-		# ldflags: abi currently needed if LD=ld.lld
 		CFLAGS="-Wno-deprecated-declarations ${CFLAGS}" \
-			RAW_LDFLAGS="$(get_abi_LDFLAGS) $(raw-ldflags)" \
 			emake "${NV_ARGS[@]}" -C nvidia-settings
 	elif use static-libs; then
-		emake "${NV_ARGS[@]}" -C nvidia-settings/src out/libXNVCtrl.a
+		# pretend GTK+3 is available, not actually used (bug #880879)
+		emake "${NV_ARGS[@]}" BUILD_GTK3LIB=1 \
+			-C nvidia-settings/src out/libXNVCtrl.a
 	fi
 }
 
