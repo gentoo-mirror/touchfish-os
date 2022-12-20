@@ -9,7 +9,6 @@ dev-libs/boost:debug - Build and install only the debug version of the Boost lib
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
 dev-libs/boost:nls - Build libboost_locale. This library requires compatible C library interfaces, which might not be provided by uClibc or other embedded libraries.
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
-dev-libs/boost:stacktrace - Build and install the Boost.Stacktrace library
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 net-proxy/v2ray:tool - Build the additional tool: v2ctl
 sci-physics/lammps:cuda - Enable cuda gpu computing support
