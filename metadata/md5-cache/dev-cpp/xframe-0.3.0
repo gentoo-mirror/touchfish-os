@@ -1,13 +1,15 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Basic tools (containers, algorithms) used by other quantstack packages
+DEPEND=>=dev-cpp/xtensor-0.21.4
+DESCRIPTION=C++ multi-dimensional labeled arrays and dataframe based on xtensor
 EAPI=8
-HOMEPAGE=https://github.com/xtensor-stack/xtl
+HOMEPAGE=https://github.com/xtensor-stack/xframe
 INHERIT=cmake
 KEYWORDS=~amd64
 LICENSE=BSD-3-Clause
+RDEPEND=>=dev-cpp/xtensor-0.21.4
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/xtensor-stack/xtl/archive/refs/tags/0.7.4.tar.gz -> xtl-0.7.4.tar.gz
+SRC_URI=https://github.com/xtensor-stack/xframe/archive/refs/tags/0.3.0.tar.gz -> xframe-0.3.0.tar.gz
 _eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1
-_md5_=afaba4499c9b09c2c889fd7eceabe13d
+_md5_=45b882f3bf808c10eba8acc16b1eccd9
