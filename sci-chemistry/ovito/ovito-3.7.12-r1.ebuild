@@ -18,7 +18,8 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RESTRICT="mirror"
 
-DEPEND="sci-libs/fftw dev-lang/python sci-libs/netcdf media-video/ffmpeg dev-qt/qtcore:5"
+DEPEND="sci-libs/fftw dev-lang/python sci-libs/netcdf media-video/ffmpeg dev-qt/qtcore:5
+	<=kde-frameworks/kio-5.99.0"
 RDEPEND="${DEPEND} ${PYTHON_DEPS}"
 BDEPEND="dev-util/cmake dev-libs/boost x11-libs/qscintilla dev-qt/qtsvg dev-libs/libxslt dev-vcs/git
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_SINGLE_USEDEP}] )"
