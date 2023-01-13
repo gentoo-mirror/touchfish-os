@@ -18,8 +18,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RESTRICT="mirror"
 
-DEPEND="sci-libs/fftw dev-lang/python sci-libs/netcdf media-video/ffmpeg dev-qt/qtcore:5
-	<=kde-frameworks/kio-5.99.0"
+DEPEND="sci-libs/fftw dev-lang/python sci-libs/netcdf media-video/ffmpeg dev-qt/qtcore:5"
 RDEPEND="${DEPEND} ${PYTHON_DEPS}"
 BDEPEND="dev-util/cmake dev-libs/boost x11-libs/qscintilla dev-qt/qtsvg dev-libs/libxslt dev-vcs/git
 	doc? ( dev-python/sphinx_rtd_theme[${PYTHON_SINGLE_USEDEP}] )"
@@ -63,4 +62,7 @@ pkg_pretend() {
 	einfo "OVITO comes with a lot of build options."
 	einfo "This ebuild will respect its default settings, that will enable most of the functions, and usually enough to get you started."
 	einfo "However, feel free to make issue or pr if you need more use flags."
+
+	ewarn "kde-frameworks/kio comes with a bug that will cause OVITO to crash, see https://bugs.kde.org/show_bug.cgi?id=463309."
+	ewarn "Apply this patch to temporarily fix it: https://invent.kde.org/frameworks/kio/-/commit/adad3bec21ebbc886f45ec2ae6065d6b6070fa93"
 }
