@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Fast, disk space efficient package manager
+EAPI=8
+HOMEPAGE=https://github.com/pnpm/pnpm
+KEYWORDS=~amd64
+LICENSE=MIT
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/pnpm/pnpm/releases/download/v7.25.0/pnpm-linux-x64 -> pnpm-7.25.0
+_md5_=b6bc439088714c83792202690d8f4120
