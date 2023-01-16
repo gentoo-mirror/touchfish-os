@@ -7,19 +7,19 @@ inherit go-module systemd
 DESCRIPTION="Xray, Penetrates Everything."
 HOMEPAGE="https://github.com/XTLS/Xray-core"
 
-SRC_URI="https://github.com/XTLS/Xray-core/archive/v1.6.6-2.tar.gz -> ${P}.tar.gz
+SRC_URI="https://github.com/XTLS/Xray-core/archive/v${PV}.tar.gz -> ${P}.tar.gz
 	https://github.com/CHN-beta/gentoo-go-dep/releases/download/${P}/${P}-deps.tar.xz"
 RESTRICT="mirror"
 
 LICENSE="MPL-2.0"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE=""
 
 BDEPEND=">=dev-lang/go-1.16.2 app-arch/unzip"
 RDEPEND="app-misc/ca-certificates dev-libs/v2ray-domain-list-community-bin dev-libs/v2ray-geoip-bin"
 
-S="${WORKDIR}/${PN}-core-1.6.6-2"
+S="${WORKDIR}/${PN}-core-${PV}"
 PATCHES=("${FILESDIR}/Xray-1.5.5-add-v2ray-asset.patch")
 
 src_compile() {
