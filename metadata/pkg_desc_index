@@ -21,8 +21,8 @@ dev-cpp/xtensor 0.24.3: C++ tensors with broadcasting and lazy computing
 dev-cpp/xtensor-signal 0_p221102: Signal processing features based on xtensor
 dev-cpp/xtl 0.7.4: Basic tools (containers, algorithms) used by other quantstack packages
 dev-libs/boost 1.81.0-r1: Boost Libraries for C++
-dev-libs/v2ray-domain-list-community-bin 20221212022004: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip-bin 202212150047: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 20230115062500: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 202301120046: GeoIP for V2Ray.
 dev-python/phonopy 2.17.0: Phonon calculations at harmonic and quasi-harmonic levels
 dev-python/seekpath 2.0.1: Obtain and visualize k-vector coefficients and obtain band paths.
 dev-python/spglib 2.0.2: Python bindings for spglib.
