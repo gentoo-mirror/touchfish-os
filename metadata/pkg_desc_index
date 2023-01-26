@@ -41,4 +41,4 @@ sys-kernel/xanmod-apparmor-sources 5.17.0 5.17.1-r1 5.17.2 5.17.3 5.17.4 5.17.5 
 sys-kernel/xanmod-sources 5.19.15 6.0.6 6.0.7 6.0.9 6.1.0 6.1.2 6.1.4 6.1.5 6.1.7 6.1.8: kernel sources including xanmod, gentoo and cjktty patches.
 sys-process/pslist 1.4.0: list all child processes for a given process ID
 virtual/linux-sources 1: Virtual for Linux kernel sources
-x11-drivers/nvidia-drivers 525.60.13: NVIDIA Accelerated Graphics Driver
+x11-drivers/nvidia-drivers 525.78.01: NVIDIA Accelerated Graphics Driver
