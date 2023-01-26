@@ -28,7 +28,4 @@ SRC_URI="
 UNIPATCH_LIST+=" ${DISTDIR}/patch-${OKV}-xanmod${XANMOD_VERSION}.xz ${DISTDIR}/cjktty-${KV_MAJOR}.${KV_MINOR}.patch "
 
 # excluding all minor kernel revision patches; XanMod will take care of that
-UNIPATCH_EXCLUDE="${UNIPATCH_EXCLUDE} 1*_linux-${KV_MAJOR}.${KV_MINOR}.*.patch 2910_bfp-mark-get-entry-ip-as--maybe-unused.patch"
-
-# excluding CPU optimizations patches, since it's included in XanMod too
-UNIPATCH_EXCLUDE="${UNIPATCH_EXCLUDE} 5*_*cpu-optimization*.patch "
+UNIPATCH_EXCLUDE="${UNIPATCH_EXCLUDE} 1*_linux-${KV_MAJOR}.${KV_MINOR}.*.patch"
