@@ -14,7 +14,7 @@ _nvhpc_prefix="/opt/nvidia/hpc_sdk/Linux_x86_64/${PV}"
 
 LICENSE=EULA
 SLOT="${PV}"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE=""
 
 RESTRICT="mirror strip"

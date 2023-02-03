@@ -107,7 +107,7 @@ SRC_URI="https://apt.repos.intel.com/oneapi/pool/main/intel-basekit-2022.2.0-262
 
 LICENSE=EULA
 SLOT=0
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE=""
 
 RESTRICT="mirror strip"
