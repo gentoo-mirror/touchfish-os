@@ -1,0 +1,14 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-util/intel-basekit-2023.0.0 >=dev-util/intel-hpckit-getting-started-2023.0.0.25400 >=dev-util/intel-oneapi-common-vars-2023.0.0.25325 >=dev-util/intel-oneapi-common-licensing-2023.0.0.25325 >=dev-util/intel-oneapi-dev-utilities-2021.8.0.25328 >=dev-util/intel-oneapi-inspector-2023.0.0.25340 >=dev-util/intel-oneapi-itac-2021.8.0.25341 >=dev-util/intel-oneapi-clck-2021.7.2.25333 >=dev-util/intel-oneapi-diagnostics-utility-2022.2.0.25337 >=dev-util/intel-oneapi-mpi-devel-2021.8.0.25329 >=dev-util/intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-2023.0.0.25370 >=dev-util/intel-oneapi-compiler-fortran-2023.0.0.25370
+DESCRIPTION=Intel® oneAPI HPC Toolkit
+EAPI=8
+HOMEPAGE=https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html
+INHERIT=unpacker
+KEYWORDS=~amd64
+LICENSE=EULA
+RDEPEND=>=dev-util/intel-basekit-2023.0.0 >=dev-util/intel-hpckit-getting-started-2023.0.0.25400 >=dev-util/intel-oneapi-common-vars-2023.0.0.25325 >=dev-util/intel-oneapi-common-licensing-2023.0.0.25325 >=dev-util/intel-oneapi-dev-utilities-2021.8.0.25328 >=dev-util/intel-oneapi-inspector-2023.0.0.25340 >=dev-util/intel-oneapi-itac-2021.8.0.25341 >=dev-util/intel-oneapi-clck-2021.7.2.25333 >=dev-util/intel-oneapi-diagnostics-utility-2022.2.0.25337 >=dev-util/intel-oneapi-mpi-devel-2021.8.0.25329 >=dev-util/intel-oneapi-compiler-dpcpp-cpp-and-cpp-classic-2023.0.0.25370 >=dev-util/intel-oneapi-compiler-fortran-2023.0.0.25370
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://apt.repos.intel.com/oneapi/pool/main/intel-hpckit-2023.0.0-25400_amd64.deb
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	fdd15d854bf5e84f82d35524ab8ca6ba
+_md5_=00d87781d53b87b163ac132aeb78da08
