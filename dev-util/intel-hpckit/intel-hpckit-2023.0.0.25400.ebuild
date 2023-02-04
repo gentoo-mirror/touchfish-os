@@ -15,7 +15,7 @@ SRC_URI="https://apt.repos.intel.com/oneapi/pool/main/intel-hpckit-2023.0.0-2540
 
 LICENSE=EULA
 SLOT=0
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE=""
 
 RESTRICT="mirror strip"
