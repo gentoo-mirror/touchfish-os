@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.20 app-arch/unzip >=dev-lang/go-1.18 app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Xray, Penetrates Everything.
+EAPI=8
+HOMEPAGE=https://github.com/XTLS/Xray-core
+INHERIT=go-module systemd
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=MPL-2.0
+RDEPEND=app-misc/ca-certificates dev-libs/v2ray-domain-list-community-bin dev-libs/v2ray-geoip-bin
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/XTLS/Xray-core/archive/v1.7.3.tar.gz -> Xray-1.7.3.tar.gz https://github.com/CHN-beta/gentoo-go-dep/releases/download/Xray-1.7.3/Xray-1.7.3-deps.tar.xz
+_eclasses_=go-module	75029f071ebc843223233ab1b0a2d4a5	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=f74c52cfc4df1baa496ec07f73e3ca6d
