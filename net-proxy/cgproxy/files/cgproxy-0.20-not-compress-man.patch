@@ -1,0 +1,16 @@
+diff --color -ur cgproxy-0.20/CMakeLists.txt cgproxy-0.20-patched/CMakeLists.txt
+--- cgproxy-0.20/CMakeLists.txt	2023-02-05 19:05:58.495646995 +0800
++++ cgproxy-0.20-patched/CMakeLists.txt	2023-02-05 19:07:59.251952416 +0800
+@@ -40,11 +40,7 @@
+ install(FILES readme.md DESTINATION ${CMAKE_INSTALL_FULL_DOCDIR})
+ 
+ # man pages
+-set(man_gz ${PROJECT_SOURCE_DIR}/man/cgproxyd.1.gz ${PROJECT_SOURCE_DIR}/man/cgproxy.1.gz ${PROJECT_SOURCE_DIR}/man/cgnoproxy.1.gz)
+-add_custom_command(OUTPUT ${man_gz}
+-    COMMAND gzip -fk cgproxyd.1 cgproxy.1 cgnoproxy.1
+-    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/man
+-)
++set(man_gz ${PROJECT_SOURCE_DIR}/man/cgproxyd.1 ${PROJECT_SOURCE_DIR}/man/cgproxy.1 ${PROJECT_SOURCE_DIR}/man/cgnoproxy.1)
+ add_custom_target(man ALL DEPENDS ${man_gz})
+ install(FILES ${man_gz} DESTINATION ${CMAKE_INSTALL_FULL_MANDIR}/man1/)
+ 
