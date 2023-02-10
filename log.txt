@@ -1,0 +1,1229 @@
+commit f9a718bb1c5906ffba09e04bfec281d1b362e462
+Author: chn <chn@chn.moe>
+Date:   Thu Feb 9 10:17:39 2023 +0800
+
+    bump xanmod
+
+commit 8846033fcbffd06ef23c71ab5366fb890bdf5706
+Author: chn <chn@chn.moe>
+Date:   Wed Feb 8 14:25:43 2023 +0800
+
+    add vsim
+
+commit 95e8c63705fafa4bc010012fb6cc2cf151fc6260
+Author: chn <chn@chn.moe>
+Date:   Mon Feb 6 10:46:05 2023 +0800
+
+    drop cgproxy
+
+commit 65a4e9cf723cdd612d8e37fba21e7ad43335b02b
+Author: chn <chn@chn.moe>
+Date:   Sun Feb 5 22:32:58 2023 +0800
+
+    add postinst message for cgproxy
+
+commit 1273888362d37c0475c870690ffc23e234e78ad9
+Author: chn <chn@chn.moe>
+Date:   Sun Feb 5 19:09:48 2023 +0800
+
+    add cgproxy
+
+commit 16f1edca9ada56a85d1d2900a13f81984a40be76
+Author: chn <chn@chn.moe>
+Date:   Sat Feb 4 23:27:52 2023 +0800
+
+    remove KEYWORDS of hpckit before it is ready
+
+commit 2ca789f5b1e7fed3ce3939a7260e96a215e7d52c
+Author: chn <chn@chn.moe>
+Date:   Sat Feb 4 21:56:08 2023 +0800
+
+    bump xray proton
+
+commit 93f06e8c9beb616120efa7f43e1b50976285545f
+Author: chn <chn@chn.moe>
+Date:   Fri Feb 3 22:05:13 2023 +0800
+
+    bump typora
+
+commit f7b02ed2528c84c4a9a8911ef0aff8451a4e2232
+Author: chn <chn@chn.moe>
+Date:   Fri Feb 3 21:35:36 2023 +0800
+
+    bump xanmod
+
+commit 8654c0a8901cdbcc837e3a312347f04cd45aaddb
+Author: chn <chn@chn.moe>
+Date:   Fri Feb 3 21:31:22 2023 +0800
+
+    drop intel-hpckit pnpm nvhpc
+
+commit cdeb9d6543c3f1501bae8d2e82da43f105db368e
+Author: chn <chn@chn.moe>
+Date:   Thu Jan 26 18:20:39 2023 +0800
+
+    bump xanmod
+
+commit c620281450b770583127db600adca80f22b216ee
+Author: chn <chn@chn.moe>
+Date:   Thu Jan 26 18:12:50 2023 +0800
+
+    bump nvidia
+
+commit aa4769d1c8a78eb5e02df264fcf284a766158e94
+Author: chn <chn@chn.moe>
+Date:   Wed Jan 25 22:46:13 2023 +0800
+
+    bump xanmod
+
+commit 4dfc2627d6bca0fabb4fb2142bfe246173f54c5f
+Author: chn <chn@chn.moe>
+Date:   Wed Jan 25 21:49:51 2023 +0800
+
+    bump xeus-cling
+
+commit c1ab4275e5fd6d8dda99727940084b108124b46c
+Author: chn <chn@chn.moe>
+Date:   Wed Jan 25 21:12:33 2023 +0800
+
+    bump proton
+
+commit d30b443f6af1583ac4e29518d68a80253772425e
+Author: chn <chn@chn.moe>
+Date:   Sat Jan 21 10:03:54 2023 +0800
+
+    add logseq
+
+commit 9dd32a79c97a37e99ef3067dd2a7553129ed4be3
+Author: chn <chn@chn.moe>
+Date:   Fri Jan 20 09:55:13 2023 +0800
+
+    bump xanmod
+
+commit ca7bfa0b94db12dd7c5ccb7d909e7b2c93d1100a
+Author: chn <chn@chn.moe>
+Date:   Wed Jan 18 17:09:33 2023 +0800
+
+    bump proton
+
+commit 203991625dbb88edaa22929c131a3321eeaf0ceb
+Author: chn <chn@chn.moe>
+Date:   Mon Jan 16 18:18:54 2023 +0800
+
+    add pnpm-bin
+
+commit a0f673dc8520ce8e3bc3f90eded1f08bc1ad800b
+Author: chn <chn@chn.moe>
+Date:   Mon Jan 16 18:09:16 2023 +0800
+
+    bump xray
+
+commit 2a37e08fb4aa6727be732a9000f37f8deab13ff2
+Author: chn <chn@chn.moe>
+Date:   Mon Jan 16 17:11:57 2023 +0800
+
+    bump xray
+
+commit cfbbee3abf64aaf9a33cf2c39ccaaf9baefb80fc
+Author: chn <chn@chn.moe>
+Date:   Mon Jan 16 12:02:02 2023 +0800
+
+    bump domain list and geoip
+
+commit be0f86b82ffa3484b27929a92b972797a4693573
+Author: chn <chn@chn.moe>
+Date:   Fri Jan 13 16:05:20 2023 +0800
+
+    bump ovito
+
+commit 3e8b6c7d436ea4ad3ecd7e26d5e7e0ce42f7b155
+Author: chn <chn@chn.moe>
+Date:   Fri Jan 13 12:32:23 2023 +0800
+
+    fix ovito
+
+commit 74ea525f8d75b3747ca2fb26ad5f507b3182b6fb
+Author: chn <chn@chn.moe>
+Date:   Fri Jan 13 09:49:32 2023 +0800
+
+    bump proton
+
+commit 938b76ce86c6e11d29d3ccf2e7ce13c7a6bd1261
+Author: chn <chn@chn.moe>
+Date:   Fri Jan 13 09:20:06 2023 +0800
+
+    bump xanmod
+
+commit 756e47feb1a9aeee6099ae431f60fd0994652b44
+Author: chn <chn@chn.moe>
+Date:   Thu Jan 12 11:26:56 2023 +0800
+
+    fix cling
+
+commit 57f537d60264eb356eafddf373577038f203bb60
+Author: chn <chn@chn.moe>
+Date:   Wed Jan 11 18:37:52 2023 +0800
+
+    regenerate Manifest for xeus-zmq
+
+commit 3b7c21652f74546aff28ad03f5c8aa0186265178
+Author: chn <chn@chn.moe>
+Date:   Wed Jan 11 18:15:41 2023 +0800
+
+    add xtensor stack and cling
+
+commit da59409014196650fd56f6cfcfc142d0cc44938f
+Author: chn <chn@chn.moe>
+Date:   Tue Jan 10 18:17:56 2023 +0800
+
+    bump tgbot
+
+commit ecef4b0d1dfb3570d572aa90efbdbc494974fb86
+Author: chn <chn@chn.moe>
+Date:   Tue Jan 10 18:15:31 2023 +0800
+
+    去掉cpp-httplib的KEYWORDS
+
+commit 4ee58724bbec1b6f1a79ec53d17816da38fba0cf
+Author: chn <chn@chn.moe>
+Date:   Tue Jan 10 16:40:44 2023 +0800
+
+    bump boost
+
+commit 4e946447610531136527afb7bdf0f74db3dd584c
+Author: chn <chn@chn.moe>
+Date:   Sun Jan 8 16:27:24 2023 +0800
+
+    bump xanmod
+
+commit 4987f68e59c3053061eba3b8c8307e0a68d37d5f
+Author: chn <chn@chn.moe>
+Date:   Sat Jan 7 19:10:50 2023 +0800
+
+    add fluent reader
+
+commit 05d59d145fcc6d1422239c58137d18093554d21d
+Author: chn <chn@chn.moe>
+Date:   Tue Jan 3 16:40:17 2023 +0800
+
+    bump xanmod
+
+commit 86c2e9de4e07d95f7b4d27f552823e6ec938afa6
+Author: chn <chn@chn.moe>
+Date:   Thu Dec 29 09:33:33 2022 +0800
+
+    add xtl
+
+commit 61e10465c7602d4e37cbe239daf5ee60f6648488
+Author: chn <chn@chn.moe>
+Date:   Tue Dec 20 18:21:55 2022 +0800
+
+    bump boost
+
+commit 0f320279f034682789477592ce0fda10d667ce32
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 15:36:50 2022 +0800
+
+    bump nvidia-drivers
+
+commit a23c79f9cd3f89de087e2b32f3960bbfd32a5ad7
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 14:38:45 2022 +0800
+
+    bump xanmod and so on
+
+commit 48e9a8d7d61ea06ca7af3342b8002c96a112641d
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 14:37:50 2022 +0800
+
+    bump ovito
+
+commit 4b1579ade070effb3183e60a70ff74c55f0619b9
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 14:27:34 2022 +0800
+
+    bump Xray
+
+commit e489460c68f5cbf5f109ebd01aa0bbc1ec94c10b
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 13:59:42 2022 +0800
+
+    bump geoip
+
+commit ced9fc8a3b03063298f91bbeb89ac9c3bf381b6d
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 13:58:27 2022 +0800
+
+    bump domain-list
+
+commit 55f383d57200ae0ae5d25e64c62ec1128bf2db32
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 13:45:23 2022 +0800
+
+    bump tgbot-cpp
+
+commit 3f0659f2a47cb8df6a234e76a14cb6c61fa40784
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 13:42:17 2022 +0800
+
+    bump magic_enum
+
+commit 27c90a38b6a8b9ef508b47e87e1976ec12e3d0b7
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 18 13:40:57 2022 +0800
+
+    bump ftxui
+
+commit 44cc2b5100a12597802e32881c3ffbf6217d68dd
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 11 22:15:25 2022 +0800
+
+    re generate manifest for seekpath
+
+commit f637ec1c0ad98bce992d0a3dc789f84b967b4d92
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 11 20:20:19 2022 +0800
+
+    add pslist
+
+commit fcee2b400cf4e798f66f4ad1f55d96e9f5009655
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 11 20:04:34 2022 +0800
+
+    add phonopy and its dependencies
+
+commit 2be7ccf8236c72a88f6967eb85c8eddc02e4edb7
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 4 21:01:50 2022 +0800
+
+    bump ftxui
+
+commit 4159661170a4084f43f5949a941314b2963e381b
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 4 20:56:50 2022 +0800
+
+    bump cpp-httplib
+
+commit 5423b450a8341aa729272bfddd34e2b553956a7d
+Author: chn <chn@chn.moe>
+Date:   Sun Dec 4 20:55:01 2022 +0800
+
+    bump proton
+
+commit cf447e05029d3bf3ad225383193fa1f9e424d338
+Author: chn <chn@chn.moe>
+Date:   Sun Nov 27 21:18:04 2022 +0800
+
+    bump ftxui
+
+commit 8b63ea238107b6eb27f61064fcc79971fc9d80b5
+Author: chn <chn@chn.moe>
+Date:   Sun Nov 27 00:29:49 2022 +0800
+
+    bump nvhpc
+
+commit 24450a6e3a0b0a151ddfd7f47d4a44eeb27f3e5e
+Author: chn <chn@chn.moe>
+Date:   Mon Nov 21 23:02:19 2022 +0800
+
+    bump xanmod
+
+commit 1f049d87acb54ba3bb46d1f13292eaecc5cde062
+Author: chn <chn@chn.moe>
+Date:   Fri Nov 11 20:02:32 2022 +0800
+
+    bump nvidia driver
+
+commit d273b26afede3f8280536658ada8fa60c35cb515
+Author: chn <chn@chn.moe>
+Date:   Fri Nov 11 06:21:33 2022 +0800
+
+    fix nvhpc install failed
+
+commit 1686afc7bd72a8a52578e9a4282d6cbad44c752d
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 10:10:11 2022 +0800
+
+    change hpckit SLOT
+
+commit 2480ffdb8c21d70483c159b5a0c8e4e433539561
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 09:22:50 2022 +0800
+
+    bump oneapi
+
+commit 748ef7a73e1c3b46670a299e7190176155189545
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 09:19:56 2022 +0800
+
+    bump ovito
+
+commit 17bccc873be5e249829b2d80d57fcc990d442ead
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 09:18:23 2022 +0800
+
+    bump xanmod
+
+commit ccd9b41e63062197bf52f6a86e99013e2d1b1cf9
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 09:08:05 2022 +0800
+
+    bump xray
+
+commit f7802ebc82d9e9b7c424519d277bdf951aaa2078
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 08:45:54 2022 +0800
+
+    bump geoip
+
+commit 81eb78fb1e8b267feacdc931eadd9302d1f89e88
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 08:44:49 2022 +0800
+
+    bump domain list
+
+commit 77f2a5a68d40c118bce1030396efde96d8d2adbc
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 08:43:06 2022 +0800
+
+    bump tgbot-cpp
+
+commit 242c06952ad2c8e24dc4498f72cd1e5a392a22c7
+Author: chn <chn@chn.moe>
+Date:   Sat Nov 5 08:39:38 2022 +0800
+
+    bump proton
+
+commit 4d57204f192d853e9f68ba69dfee8e6ac17e87c7
+Author: chn <chn@chn.moe>
+Date:   Sun Oct 30 17:22:44 2022 +0800
+
+    add ftxui
+
+commit 1dd14ca7b39182048baf8a54d63d742f80bd8853
+Author: chn <chn@chn.moe>
+Date:   Sun Oct 30 17:14:21 2022 +0800
+
+    bump xanmod
+
+commit 8843c0d3f64c88fa93ef6dae3bf3e9f505974821
+Author: chn <chn@chn.moe>
+Date:   Sun Oct 30 01:21:10 2022 +0800
+
+    bump nvhpc
+
+commit 13efe6cae6d65ff6c901dd9c2233c891056da33b
+Author: chn <chn@chn.moe>
+Date:   Sat Oct 29 20:29:59 2022 +0800
+
+    fix typora download
+
+commit 0f7376e582cad9b82d2c5f4d575135a4ca387e22
+Author: chn <chn@chn.moe>
+Date:   Sat Oct 29 20:18:56 2022 +0800
+
+    add xanmod
+
+commit b970d4f011e33dc8de79552c38828554ea275022
+Author: chn <chn@chn.moe>
+Date:   Mon Oct 24 00:20:48 2022 +0800
+
+    bump xanmod
+
+commit 87ce7e52a0242803a94e68e84235a7c43ba8fe84
+Author: chn <chn@chn.moe>
+Date:   Sat Oct 22 14:41:36 2022 +0800
+
+    bump proton meta
+
+commit e773289c60b13f051cdec01ee94c9239a725bcf5
+Author: chn <chn@chn.moe>
+Date:   Sat Oct 22 14:40:48 2022 +0800
+
+    bump xanmod
+
+commit e96c8166ceaf96a1c849c6771febac9df9188253
+Author: chn <chn@chn.moe>
+Date:   Sat Oct 22 14:38:50 2022 +0800
+
+    bump xanmod
+
+commit 335f20674d3e1dc8be76464c517e72b874810f88
+Author: chn <chn@chn.moe>
+Date:   Fri Oct 14 21:20:13 2022 +0800
+
+    bump xanmod
+
+commit 33826711e7198958f80a06e3e439318306b4bad0
+Author: chn <chn@chn.moe>
+Date:   Tue Oct 4 11:06:50 2022 +0800
+
+    bump xanmod
+
+commit 670fd222d8fbde4cb711c6b2bb2cb32302ee65b4
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 17:44:18 2022 +0800
+
+    fix vesta
+
+commit 026c5f591e3de8e4f6582ee7c6b8ffd04568dea8
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 12:01:17 2022 +0800
+
+    add vesta
+
+commit 5f0fce0b5405fc4e3bb50cc380586e30745d91e3
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 11:50:44 2022 +0800
+
+    regenerate manifest
+
+commit a9db8ebec34b2689f45d22e589982ff9a8ffe506
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 11:49:57 2022 +0800
+
+    drop old version v2ray xray
+
+commit f535fd7f6f3c57da3e66ff469bcfecac98441554
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 10:02:41 2022 +0800
+
+    add rmtrash
+
+commit c27be51c737b7ef80fa4bdb13f54e06a22e9cb5b
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 10:00:50 2022 +0800
+
+    add typora
+
+commit f02ebad5a1cecaca0fdc936e718da13a760411a7
+Author: chn <chn@chn.moe>
+Date:   Wed Sep 28 09:44:30 2022 +0800
+
+    bump xanmod
+
+commit 9451e4358bf3a60833f80ae5056555123a05cf9b
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 22:32:48 2022 +0800
+
+    bump ovito
+
+commit 8443adf732b23433d9f809d976c28a404795d402
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 22:20:25 2022 +0800
+
+    bump xray
+
+commit 5b466cc7d4519835b506707bfb74cd0fed42e852
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 22:09:44 2022 +0800
+
+    bump v2ray
+
+commit d9a2f1f79bd8f34b1df10f23eb56316107216ef8
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 21:54:53 2022 +0800
+
+    bump geoip
+
+commit e4970d117b191ad9255be25478a53f0619860ad8
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 21:53:35 2022 +0800
+
+    bump domain list
+
+commit 19ee3f3c33f869768e257da9962c3cc1ba9c387d
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 21:52:18 2022 +0800
+
+    bump boost
+
+commit b8eacc52b5062dddc4cd7b2396bf3746b121a7a4
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 21:48:15 2022 +0800
+
+    bump tgbot-cpp
+
+commit d1b1a7ce08fa487cf4e7d4ed9c741d1fb1b0f455
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 21:44:59 2022 +0800
+
+    bump cpp-httplib
+
+commit e874b1e2d97a25d1cfd3a6288fbfdad574b856c3
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 21:42:38 2022 +0800
+
+    bump proton
+
+commit e957c17748478cd0fafc88c9afe5248a6f8f4ead
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 27 14:55:13 2022 +0800
+
+    drop seer
+
+commit 69fd5001db6544999b4f54ac5be78cec029ed71e
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 20 20:08:16 2022 +0800
+
+    bump xanmod
+
+commit f3f6fb0dac9d171590a3ff856774a547b23e6cdb
+Author: chn <chn@chn.moe>
+Date:   Sun Sep 11 09:23:06 2022 +0800
+
+    bump xanmod
+
+commit 2945ffa869732c00aaa399186d5e005fab62c31a
+Author: chn <chn@chn.moe>
+Date:   Tue Sep 6 22:48:34 2022 +0800
+
+    bump v2ray geoip/domain
+
+commit 1b774fc0cb5dd0bb1b5310e2c10c1e2bfe6c534f
+Author: chn <chn@chn.moe>
+Date:   Sun Aug 28 15:34:58 2022 +0800
+
+    monthly bump
+
+commit 5bbbe300d4945f6044360621daeaec26ac95846e
+Author: chn <chn@chn.moe>
+Date:   Sat Aug 20 19:26:42 2022 +0800
+
+    add yoga keyboard
+
+commit 0f592bfef3c13135e1521ab5961425c88ab17c7b
+Author: chn <chn@chn.moe>
+Date:   Fri Aug 19 10:04:16 2022 +0800
+
+    bump xanmod
+
+commit 9ba496a1be6ec47381cc953d5413b60fe051836d
+Author: chn <chn@chn.moe>
+Date:   Mon Aug 8 16:51:26 2022 +0800
+
+    bump xanmod
+
+commit 171a3a0c3244ca7004eec3ccd765511357768451
+Author: chn <chn@chn.moe>
+Date:   Fri Aug 5 11:34:32 2022 +0800
+
+    bump nvidia
+
+commit a1efbe426249d0d172a378ada18dd55b95f309ae
+Author: chn <chn@chn.moe>
+Date:   Sun Jul 31 21:17:59 2022 +0800
+
+    fix QA
+
+commit 4a05f98ab35d51126d6b853163eaf011d660ca57
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:29:39 2022 +0800
+
+    bump ovito
+
+commit fe691382ed1415198515cb614e0016724c603e13
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:29:24 2022 +0800
+
+    bump nvhpc
+
+commit b524b1a74383d715feb04d26b10f9cf9096b12d4
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:14:35 2022 +0800
+
+    drop nekobox
+
+commit 3845e75745efa18b5f7834493b414ac9a4851227
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:14:18 2022 +0800
+
+    bump xanmod
+
+commit 97c02d35a63308f93f4091c428db495ed0c71b61
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:05:47 2022 +0800
+
+    drop mingw-runtime
+
+commit 7ba8e596849c24551715b9363f4441eedce52f7e
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:03:32 2022 +0800
+
+    bump domainlist and geoip
+
+commit 8ffc415c66c23053e6079579ef3ab42711dfb046
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 09:00:52 2022 +0800
+
+    drop poco
+
+commit a25f5613ae355a47bc6c43d09ea27019f0aea712
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 08:58:11 2022 +0800
+
+    bump tgbot-cpp
+
+commit 72a567132b0d82a8aae49c13844f5e28c898a4e0
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 08:56:19 2022 +0800
+
+    bump nameof
+
+commit e6340883d851f62c9a4db284e91ac0c9b420164c
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 08:53:47 2022 +0800
+
+    update date
+
+commit 7c66224d438f190de00298cd93646862b0ae858b
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 08:51:56 2022 +0800
+
+    bump cppcoro
+
+commit d21fc8c203103196e0005f0ce4e5fe0fbcae5991
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 08:46:35 2022 +0800
+
+    bump cpp-httplib
+
+commit 4bfaf3d219915e5b2a37da8e4d522a40ca52cebe
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 30 08:44:44 2022 +0800
+
+    bump proton
+
+commit d1c10b6a3477c5c6cae57b9bb4a883199fcb2fb4
+Author: chn <chn@chn.moe>
+Date:   Mon Jul 25 21:21:47 2022 +0800
+
+    drop xmu health report
+
+commit cb5b22705c0bad32073482787146b73750b2c4ce
+Author: chn <chn@chn.moe>
+Date:   Sun Jul 24 21:57:03 2022 +0800
+
+    bump geoip and domain
+
+commit 5a0d957fad7883414da48aa283aefd47745c9d6b
+Author: chn <chn@chn.moe>
+Date:   Sun Jul 24 03:14:14 2022 +0800
+
+    bump nvhpc
+
+commit afbd4c91afca7b2af0bbba2890091969a94a6b55
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 23 21:28:19 2022 +0800
+
+    add nvidia drivers
+
+commit a15ab995cbf71b1703f92c163ec762e3ad911d58
+Author: chn <chn@chn.moe>
+Date:   Thu Jul 21 07:37:12 2022 +0800
+
+    add magic-enum
+
+commit d99d6191b4f31d33f9fc54c3c04b041aca3fdc53
+Author: chn <chn@chn.moe>
+Date:   Sun Jul 17 20:00:04 2022 +0800
+
+    bump nvhpc and add oneapi
+
+commit e1266d163cfbc275c86ae28f1246619da5224581
+Author: chn <chn@chn.moe>
+Date:   Wed Jul 13 23:28:47 2022 +0800
+
+    bump kernel
+
+commit c6c05a876d823e61c4ca995f5ad02d6ad01378b8
+Author: chn <chn@chn.moe>
+Date:   Wed Jul 13 23:26:12 2022 +0800
+
+    ovito do not use precompiled headers
+
+commit e85af3f7e075b92c47dfe7d19e6f62df155f5375
+Author: chn <chn@chn.moe>
+Date:   Fri Jul 8 22:49:42 2022 +0800
+
+    bump xanmod
+
+commit 5adc838386c783b2655c11d48fd81683658b8ca7
+Author: chn <chn@chn.moe>
+Date:   Thu Jul 7 15:49:37 2022 +0800
+
+    add seer
+
+commit 22b22b3330c0f76229126ec1e677816efbaba58a
+Author: chn <chn@chn.moe>
+Date:   Sat Jul 2 09:42:50 2022 +0800
+
+    kernel add cjktty
+
+commit 3601b4adac6a0acb94c4ec4eac191ec96088be97
+Author: chn <chn@chn.moe>
+Date:   Fri Jul 1 10:23:58 2022 +0800
+
+    bump xanmod
+
+commit f17fb058b221d6e3a6a6bb04dff30061d792f87f
+Author: chn <chn@chn.moe>
+Date:   Fri Jul 1 10:19:55 2022 +0800
+
+    bump proton
+
+commit 9a0b7ec90561de984575c23ee0be0dea48b8bf9e
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 28 21:08:52 2022 +0800
+
+    add ovito
+
+commit 5919a2dfbbb9306001d4feee5f141eabf6732faa
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 28 20:42:59 2022 +0800
+
+    bump proton
+
+commit 31e59479e38707e6e08a05a532fb13bb944c2038
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 28 20:29:21 2022 +0800
+
+    add snapper-gui
+
+commit 6dc459c1c8827180f8235489d2de671360e73377
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 28 20:06:33 2022 +0800
+
+    bump v2ray libs
+
+commit 80e77e5f85db3ae03b0e48e1aa67536f0fdb182d
+Author: chn <chn@chn.moe>
+Date:   Thu Jun 23 14:11:55 2022 +0800
+
+    bump xanmod
+
+commit 30e52309c019abcc02a5ae15ebfde28046ebdcc3
+Author: chn <chn@chn.moe>
+Date:   Wed Jun 22 16:34:59 2022 +0800
+
+    fix nvhpc
+
+commit 36032807c60b99f5f8186150a0190f5c37aaff7d
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 21 19:32:48 2022 +0800
+
+    fix nvhpc
+
+commit 865b4c4e7949d1da49f5d669327f4c1389b429e0
+Author: chn <chn@chn.moe>
+Date:   Fri Jun 17 01:01:06 2022 +0800
+
+    bump nvhpc
+
+commit f4e416d3a1cf7d90470ac9f2e7229f29c40235fb
+Author: chn <chn@chn.moe>
+Date:   Thu Jun 16 10:54:19 2022 +0800
+
+    fix nvhpc
+
+commit dd831a58b9ae099be051f3da3a33b99afa165f24
+Author: chn <chn@chn.moe>
+Date:   Wed Jun 15 22:12:38 2022 +0800
+
+    add nvhpc 22.2
+
+commit cb3bdf109ea5a9cbbd71afbb1b8588aa5f93cb9a
+Author: chn <chn@chn.moe>
+Date:   Wed Jun 15 12:46:35 2022 +0800
+
+    add nvhpc
+
+commit cf9511626946f6830827f505ba0846a09ab5c91c
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 21:22:15 2022 +0800
+
+    fix nekobox
+
+commit 485663441f63fe9a202755083b95dd4fd071d5e8
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 21:06:56 2022 +0800
+
+    fix nekobox
+
+commit 3fa50c4c8ceddb8600331f20e6c1f9135549358a
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 20:44:56 2022 +0800
+
+    fix nekobox
+
+commit c1e887c6c9f586fa5f1e002fe924b8e0b746cca2
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 20:41:16 2022 +0800
+
+    add nekobox
+
+commit a965b21a3fa380878468af5ecf7dec93cc926ca1
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 19:15:55 2022 +0800
+
+    typo
+
+commit a64ce0a21a27d90c98bba27c9013c5dce4b43abc
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 19:14:31 2022 +0800
+
+    fix typo
+
+commit 57571af8f7036290050fd3d8ba0e39edcc1feaf1
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 19:08:23 2022 +0800
+
+    bump v2ray and its deps
+
+commit d9228e15d0c1ae43e126de5eb61c25855f9a1182
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 18:50:01 2022 +0800
+
+    bump cpp-httplib
+
+commit a4671678a274e846045b1c72e929a992c93d0900
+Author: chn <chn@chn.moe>
+Date:   Tue Jun 14 16:28:29 2022 +0800
+
+    add lammps
+
+commit d8b3117b6049e3308d6424756155e2d9e9b4a216
+Author: chn <chn@chn.moe>
+Date:   Fri Jun 10 23:05:26 2022 +0800
+
+    bump xanmod
+
+commit 1baecc806537849e7b3caea301e0f2323ad8e9a0
+Author: chn <chn@chn.moe>
+Date:   Wed Jun 8 08:30:28 2022 +0800
+
+    bump xanmod
+
+commit 88715b5a28b1fcd7f3339edd017a7cf2688b2351
+Author: chn <chn@chn.moe>
+Date:   Sun Jun 5 11:32:32 2022 +0800
+
+    fix xray
+
+commit fcdac2eb1d95aacc56ae4de3f48214949cfda936
+Author: chn <chn@chn.moe>
+Date:   Sun Jun 5 10:58:57 2022 +0800
+
+    bump xanmod
+
+commit 7cb7a21e47628283cb44d8d2819207a70479e505
+Author: chn <chn@chn.moe>
+Date:   Sat Jun 4 15:13:21 2022 +0800
+
+    fix xray
+
+commit 57f1c1e7b19fb24b13baab24faffa1ee3550fb28
+Author: chn <chn@chn.moe>
+Date:   Thu Jun 2 14:58:38 2022 +0800
+
+    bump xanmod
+
+commit f1299cbe00d611b464f03d63892bcd69d0883357
+Author: chn <chn@chn.moe>
+Date:   Mon May 30 16:26:06 2022 +0800
+
+    bump proton
+
+commit c02c28717ee131139795ccc7a18f833af0783404
+Author: chn <chn@chn.moe>
+Date:   Sun May 29 16:42:57 2022 +0800
+
+    add cpp-httplib
+
+commit 1418b6ceaa319bad2b266870e323bc1f2cb77e3a
+Author: chn <chn@chn.moe>
+Date:   Sun May 29 12:05:05 2022 +0800
+
+    fix proton
+
+commit a5ce88822eb5c297d255835685dcfd5d5129be38
+Author: chn <chn@chn.moe>
+Date:   Sun May 29 09:26:19 2022 +0800
+
+    bump proton
+
+commit 5e9c71c97ce3b2692262291619b58aa7212b709e
+Author: chn <chn@chn.moe>
+Date:   Sun May 29 09:20:25 2022 +0800
+
+    bump domain & geoip
+
+commit 57ede69d5ba9ff2175aae9b993cda20e60898cb3
+Author: chn <chn@chn.moe>
+Date:   Sun May 22 10:14:07 2022 +0800
+
+    typo
+
+commit 44147123f4517cd91f070cf7f113d76ab4820da4
+Author: chn <chn@chn.moe>
+Date:   Sun May 22 10:13:14 2022 +0800
+
+    bump proton
+
+commit 5e267f59cea0d30b0ac4173cdd1f23d889ea21cd
+Author: chn <chn@chn.moe>
+Date:   Sun May 22 09:59:52 2022 +0800
+
+    bump domain & geoip
+
+commit 7aac6a3322962da5078992891ad15957a1efbc62
+Author: chn <chn@chn.moe>
+Date:   Thu May 19 14:02:14 2022 +0800
+
+    bump xanmod
+
+commit 4d2e78f5db1b1933ae3f93c9515dbfda8f38bdf9
+Author: chn <chn@chn.moe>
+Date:   Mon May 16 13:07:11 2022 +0800
+
+    bump v2ray domain and geoip
+
+commit 465b111fa6d58116ff78ee3a73a2980c2eac1732
+Author: chn <chn@chn.moe>
+Date:   Sat May 14 09:24:35 2022 +0800
+
+    fix boost
+
+commit c48a48daba4839cb6951e4b05e9f9f8611f665f5
+Author: chn <chn@chn.moe>
+Date:   Thu May 12 20:45:45 2022 +0800
+
+    bump xanmod
+
+commit cf955a323902b22d0c393cad1d281c6a44ea5e47
+Author: chn <chn@chn.moe>
+Date:   Thu May 12 20:39:46 2022 +0800
+
+    add boost
+
+commit 8af023bb908d9991ba3d606360a8fdb992e36735
+Author: chn <chn@chn.moe>
+Date:   Thu May 12 20:36:59 2022 +0800
+
+    bump proton
+
+commit ef94a891d66d56916fe28e6f32e4af61c61b38e8
+Author: chn <chn@chn.moe>
+Date:   Sun May 8 13:26:32 2022 +0800
+
+    add v2ray
+
+commit 52b0801735ab65208cc59217a4701576af76e71e
+Author: chn <chn@chn.moe>
+Date:   Thu May 5 13:06:50 2022 +0800
+
+    bump domain list and geoip
+
+commit eabfa72c8978933c9ef8e56ede77242d77ac7220
+Author: chn <chn@chn.moe>
+Date:   Mon May 2 00:54:27 2022 +0800
+
+    bump domain list
+
+commit 5d4baf63d91f9722adc9939c276d28954f2f5f74
+Author: chn <chn@chn.moe>
+Date:   Sun May 1 15:49:18 2022 +0800
+
+    add poco
+
+commit fbfb3cb733859b6fb137af33661829e02928c335
+Author: chn <chn@chn.moe>
+Date:   Sun May 1 10:17:30 2022 +0800
+
+    fix typo
+
+commit f876847d80dfb47e7a3ac6417d10223e0a646e43
+Author: chn <chn@chn.moe>
+Date:   Sun May 1 10:06:03 2022 +0800
+
+    bump proton
+
+commit 0b5db8a091920487e45a0311ea3e29590e8def3e
+Author: chn <chn@chn.moe>
+Date:   Sun May 1 09:58:27 2022 +0800
+
+    fix xray package
+
+commit 27b2cd890d535b4bf1cb7f9ef77a37db4a4d53ed
+Author: chn <chn@chn.moe>
+Date:   Sun May 1 09:42:10 2022 +0800
+
+    add xray geoip geosite
+
+commit dcb7ef9e677d06043d7f1ed9fbebf96361e0cd3b
+Author: chn <chn@chn.moe>
+Date:   Thu Apr 28 19:06:30 2022 +0800
+
+    bump xanmod to 5.17.5
+
+commit e33b1387925bf59559e0df2252d6597ee5eda77b
+Author: chn <chn@chn.moe>
+Date:   Thu Apr 21 08:43:44 2022 +0800
+
+    bump xanmod version
+
+commit 53ad126c2a474a7b53406052a3df06ecd06f0a04
+Author: chn <chn@chn.moe>
+Date:   Sat Apr 16 11:03:39 2022 +0800
+
+    bump proton version
+
+commit 30941b1813ebe38f1235a7781a4a70c60d902a7c
+Author: chn <chn@chn.moe>
+Date:   Fri Apr 15 10:30:27 2022 +0800
+
+    xanmod version bump
+
+commit e183139d9eb4d7e841814a9b8082183dfac4c593
+Author: chn <chn@chn.moe>
+Date:   Sat Apr 9 15:24:44 2022 +0800
+
+    bump kernel version
+
+commit f66bcc99196a8a1cd62acc79995fa143c8ab5464
+Author: chn <chn@chn.moe>
+Date:   Fri Apr 1 15:52:42 2022 +0800
+
+    fix typo in proton-meta, fix #1
+
+commit 7f2c48fcbef318585cfe70aa0d2a6d8634ddf705
+Author: chn <chn@chn.moe>
+Date:   Fri Apr 1 15:49:34 2022 +0800
+
+    add mingw64-runtime
+
+commit ca47b9df862e927f4953ca9b23f93dba7ec205e7
+Author: chn <chn@chn.moe>
+Date:   Tue Mar 29 11:13:13 2022 +0800
+
+    sys-kernel/xanmod-apparmor-sources: version bump
+
+commit 07fd2f69ccc210b8581bb6df682d4db7e15b3c4d
+Author: chn <chn@chn.moe>
+Date:   Tue Mar 29 11:10:47 2022 +0800
+
+    virtual/linux-sources: add new package
+
+commit 2088f99d8fd23bab7f0eb4dbbb3abb4b7e408e68
+Author: 陈浩南 <chn@chn.moe>
+Date:   Tue Mar 29 11:01:50 2022 +0800
+
+    change licence to GPL-v2
+
+commit 4759a9de666dbd868cb1c2f16ca859bce05740d7
+Author: chn <chn@chn.moe>
+Date:   Tue Mar 29 10:45:38 2022 +0800
+
+    sys-kernel/xanmod-apparmor-sources: new package
+
+commit 3fa81a7efad322fa4c180cd54ad3d0ecb71d028b
+Author: chn <chn@chn.moe>
+Date:   Mon Mar 28 11:25:33 2022 +0800
+
+    bump proton version
+
+commit b27fd79dd46518925add0fc1905d1696477daf27
+Author: chn <chn@chn.moe>
+Date:   Sat Mar 12 14:08:48 2022 +0800
+
+    app-emulation/proton-ge-custom-bin: fix 7.9-r2 build failed
+
+commit a540eef149f925f5566b10e1f8599714cef555d5
+Author: chn <chn@chn.moe>
+Date:   Sat Mar 12 13:28:18 2022 +0800
+
+    app-emulation/proton-ge-custom-bin: fix no dosdevices error
+
+commit 973df7a8632496637eed73e61330626406d7d03b
+Author: chn <chn@chn.moe>
+Date:   Sat Mar 12 12:38:47 2022 +0800
+
+    app-emulation/proton-ge-custom-bin: fix package issue
+
+commit 548bf3d5c0ff5cc924b65dde4ca037535ea090c1
+Author: chn <chn@chn.moe>
+Date:   Sat Mar 12 10:45:13 2022 +0800
+
+    app-emulation/proton-ge-custom-bin: bump to 7.9
+
+commit 464c80c63029f67cd8d52bf678cf7f63a5b434ec
+Author: chn <chn@chn.moe>
+Date:   Wed Mar 9 00:06:22 2022 +0800
+
+    add "how to use this"
+
+commit 4c220868b5147ce7d4990abe14cd8163d1ecdcc8
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 17:38:44 2022 +0800
+
+    dev-cpp/tgbot-cpp: add new package
+
+commit 363a5dcb1d0d18f5a8023de4e5f7ed624155d348
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 17:37:43 2022 +0800
+
+    dev-cpp/nameof: add new package
+
+commit 1ca73dd6f4c737c4e3b88810d1eb5e94eba5ebfa
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 17:36:50 2022 +0800
+
+    dev-cpp/date: add new package
+
+commit fc3659557e586aa41329ac81fc03d51696a8da5b
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 17:35:19 2022 +0800
+
+    dev-cpp/cppcoro: add new package
+
+commit 6ab4fa8a88619a2f6d4bf659fb7c090b444d1997
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 16:28:33 2022 +0800
+
+    fix some QA issue
+
+commit f9ee05ced4cebf8cb11d08b013b9888dd1490cb5
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 14:50:08 2022 +0800
+
+    add "Why this name" in README.md
+
+commit 8a0ca9b0774192f7da3bf23b7d200b3694db919f
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 13:31:13 2022 +0800
+
+    app-emulation/proton-ge-custom-meta: add new package
+
+commit 1fb86c562c74a139f6e104981daf458e7a4dff5a
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 13:30:52 2022 +0800
+
+    app-emulation/proton-ge-custom-bin: add new package
+
+commit e830a61b87f1c2af3f0f59cf4adfebbaf29c94fc
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 13:28:57 2022 +0800
+
+    add "What is this" in README.md
+
+commit d72f43409d033e54cd57bd92f35c0b2df1e04b23
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 12:41:01 2022 +0800
+
+    add license
+
+commit 7d130b7dc3dfc8715fbfef79042f2c21109f1c92
+Author: chn <chn@chn.moe>
+Date:   Sun Mar 6 12:35:19 2022 +0800
+
+    init
