@@ -12,4 +12,5 @@ RDEPEND="
 	firmware? ( sys-kernel/linux-firmware )
 	|| (
 		sys-kernel/xanmod-apparmor-sources
+		sys-kernel/xanmod-sources
 	)"
