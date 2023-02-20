@@ -16,6 +16,9 @@ KEYWORDS=""
 IUSE=""
 RESTRICT="mirror"
 
+DEPEND="dev-qt/qtwebsockets
+	dev-python/websockets"
+
 src_configure() {
 	mycmakeargs=(
 		-DBUILD_SHARED_LIBS=OFF
