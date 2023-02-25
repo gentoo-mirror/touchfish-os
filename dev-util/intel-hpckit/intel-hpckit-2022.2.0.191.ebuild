@@ -1,7 +1,7 @@
 # Copyright 2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-# apt show ${PN} | grep Depends | sed 's/: /:\n/g' |sed 's/, /\n/g'
+# apt show ${PN} | grep Depends | sed 's/: /:\n/g' | sed 's/, /\n/g'
 # ${PV%.*}-${PV##*.}
 # (.*) \(>= (.*)\)
 # >=dev-util/$1-$2
