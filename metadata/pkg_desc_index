@@ -28,8 +28,7 @@ dev-libs/v2ray-geoip-bin 202302090046: GeoIP for V2Ray.
 dev-python/phonopy 2.17.0: Phonon calculations at harmonic and quasi-harmonic levels
 dev-python/seekpath 2.0.1: Obtain and visualize k-vector coefficients and obtain band paths.
 dev-python/spglib 2.0.2: Python bindings for spglib.
-dev-util/intel-basekit 2023.0.0.25537: Intel® oneAPI Base Toolkit
-dev-util/intel-hpckit 2022.2.0.191 2022.3.0.8751 2023.0.0.25400: Intel® oneAPI HPC Toolkit
+dev-util/intel-hpckit 2023.0.0.25400: Intel® oneAPI HPC Toolkit
 dev-util/nvhpc 22.5-r6 22.7-r1 22.9 22.11: NVIDIA HPC SDK
 dev-util/pnpm-bin 7.25.0: Fast, disk space efficient package manager
 kde-misc/wallpaper-engine-kde-plugin 0_p221216: A kde wallpaper plugin integrating wallpaper engine
