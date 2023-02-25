@@ -94,7 +94,7 @@ SRC_URI="https://apt.repos.intel.com/oneapi/pool/main/intel-basekit-2023.0.0-255
 
 LICENSE=EULA
 SLOT=0
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE=""
 
 RESTRICT="mirror strip"
