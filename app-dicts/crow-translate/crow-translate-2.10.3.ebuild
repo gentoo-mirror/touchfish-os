@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-DEPEND=""
+DEPEND="app-text/tesseract"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
