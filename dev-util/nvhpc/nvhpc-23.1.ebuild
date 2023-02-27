@@ -49,13 +49,13 @@ pkg_config() {
     ${_nvhpc_prefix}/compilers/bin/makelocalrc -x ${_nvhpc_prefix}/compilers/bin || die
     rm -f ${_nvhpc_prefix}/compilers/glibc_version || die
     for i in nccl nvshmem; do
-        ln -s "${_cuda_version}/$i" "${_nvhpc_prefix}/comm_libs/$i"
+        ln -s "${_cuda_version}/$i" "${_nvhpc_prefix}/comm_libs" || die
     done
     for i in bin include lib64 nvvm; do
-        ln -s "${_cuda_version}/$i" "${_nvhpc_prefix}/cuda/$i"
+        ln -s "${_cuda_version}/$i" "${_nvhpc_prefix}/cuda" || die
     done
     for i in include lib64; do
-        ln -s "${_cuda_version}/$i" "${_nvhpc_prefix}/math_libs/$i"
+        ln -s "${_cuda_version}/$i" "${_nvhpc_prefix}/math_libs" || die
     done
 }
 
@@ -65,13 +65,13 @@ pkg_prerm() {
 
     # delete symlinks
     for i in nccl nvshmem; do
-        rm -f "${_nvhpc_prefix}/comm_libs/$i"
+        rm -f "${_nvhpc_prefix}/comm_libs/$i" || die
     done
     for i in bin include lib64 nvvm; do
-        rm -f "${_nvhpc_prefix}/cuda/$i"
+        rm -f "${_nvhpc_prefix}/cuda/$i" || die
     done
     for i in include lib64; do
-        rm -f "${_nvhpc_prefix}/math_libs/$i"
+        rm -f "${_nvhpc_prefix}/math_libs/$i" || die
     done
 }
 
