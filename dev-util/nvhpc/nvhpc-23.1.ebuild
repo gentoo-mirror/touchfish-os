@@ -9,7 +9,7 @@ DESCRIPTION="NVIDIA HPC SDK"
 HOMEPAGE="https://developer.nvidia.com/hpc-sdk"
 SRC_URI="https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-${PV//./-}_${PV}_amd64.deb
     https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-${PV//./-}-cuda-multi_${PV}_amd64.deb"
-_cuda_version=11.7
+_cuda_version=12.0
 _nvhpc_prefix="/opt/nvidia/hpc_sdk/Linux_x86_64/${PV}"
 
 LICENSE=EULA
@@ -20,7 +20,7 @@ IUSE=""
 RESTRICT="mirror strip"
 
 DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="sys-cluster/rdma-core[neigh]"
 BDEPEND=""
 
 QA_PREBUILT="*"
@@ -33,11 +33,16 @@ src_unpack() {
 
 src_prepare() {
     default
-    sed -i "s/en_US\.UTF\-8/C/g" "${S}${_nvhpc_prefix}/compilers/bin/makelocalrc" || die
+    mv ${S}/usr/share/doc/nvhpc-${PV//./-} ${S}/usr/share/doc/nvhpc-${PV} || die
+    mv ${S}/usr/share/doc/nvhpc-${PV//./-}-cuda-multi/changelog.gz ${S}/usr/share/doc/nvhpc-${PV}/cuda-multi-changelog.gz || die
+    rm -rf ${S}/usr/share/doc/nvhpc-${PV//./-}-cuda-multi || die
+    gzip -d ${S}/usr/share/doc/nvhpc-${PV}/*.gz || die
+
+    rm -f ${S}${_nvhpc_prefix}/comm_libs/mpi/lib/lib{ibverbs.so*,rdmacm.so*,nl-3.so*,nl-route-3.so*} || die
 }
 
 src_install() {
-    mv "${S}/opt" "${D}" || die
+    mv "${S}"/{opt,usr} "${D}" || die
 }
 
 pkg_config() {
@@ -54,8 +59,20 @@ pkg_config() {
     done
 }
 
-pkg_postrm() {
-    ewarn "Some files may remain in ${_nvhpc_prefix}, please remove them manually."
+pkg_prerm() {
+    # delete localrc
+    rm -f ${_nvhpc_prefix}/compilers/bin/localrc* || die
+
+    # delete symlinks
+    for i in nccl nvshmem; do
+        rm -f "${_nvhpc_prefix}/comm_libs/$i"
+    done
+    for i in bin include lib64 nvvm; do
+        rm -f "${_nvhpc_prefix}/cuda/$i"
+    done
+    for i in include lib64; do
+        rm -f "${_nvhpc_prefix}/math_libs/$i"
+    done
 }
 
 pkg_postinst() {
