@@ -1,0 +1,12 @@
+DEFINED_PHASES=config install postinst prepare prerm unpack
+DESCRIPTION=NVIDIA HPC SDK
+EAPI=8
+HOMEPAGE=https://developer.nvidia.com/hpc-sdk
+INHERIT=unpacker
+LICENSE=EULA
+RDEPEND=sys-cluster/rdma-core[neigh]
+RESTRICT=mirror strip
+SLOT=23.1
+SRC_URI=https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-23-1_23.1_amd64.deb https://developer.download.nvidia.com/hpc-sdk/ubuntu/amd64/nvhpc-23-1-cuda-multi_23.1_amd64.deb
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	fdd15d854bf5e84f82d35524ab8ca6ba
+_md5_=1a0848f6a579d72b4d647759d5061608
