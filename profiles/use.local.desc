@@ -16,8 +16,3 @@ sci-physics/lammps:hip - Enable hip gpu computing support
 sci-physics/lammps:lammps-memalign - Enables the use of the posix_memalign() call instead of malloc() when large chunks or memory are allocated by LAMMPS. Aliengnment is on 16 byte boundaries.
 sci-physics/lammps:opencl - Enable opencl gpu computing support
 virtual/linux-sources:firmware - Install linux kernel firmware
-x11-drivers/nvidia-drivers:driver - Install kernel driver modules
-x11-drivers/nvidia-drivers:kernel-open - Use the open source variant of drivers (Turing/Ampere+ GPUs only, aka GTX 1650+, very experimental)
-x11-drivers/nvidia-drivers:persistenced - Install the persistence daemon for keeping devices state when unused
-x11-drivers/nvidia-drivers:static-libs - Install the XNVCtrl static library for accessing sensors and other features
-x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
