@@ -1,0 +1,42 @@
+diff --color -ur /var/tmp/portage/dev-cpp/kfr-5.0.2/work/kfr-5.0.2/CMakeLists.txt kfr-5.0.2/CMakeLists.txt
+--- /var/tmp/portage/dev-cpp/kfr-5.0.2/work/kfr-5.0.2/CMakeLists.txt	2023-01-25 23:05:36.000000000 +0800
++++ kfr-5.0.2/CMakeLists.txt	2023-03-17 14:30:39.554549437 +0800
+@@ -263,15 +263,15 @@
+ 
+ install(
+     TARGETS kfr kfr_io
+-    ARCHIVE DESTINATION lib
+-    LIBRARY DESTINATION lib
++    ARCHIVE DESTINATION lib64
++    LIBRARY DESTINATION lib64
+     RUNTIME DESTINATION bin)
+ 
+ if (KFR_ENABLE_DFT AND KFR_ENABLE_CAPI_BUILD)
+     install(
+         TARGETS kfr_capi
+-        ARCHIVE DESTINATION lib
+-        LIBRARY DESTINATION lib
++        ARCHIVE DESTINATION lib64
++        LIBRARY DESTINATION lib64
+         RUNTIME DESTINATION bin)
+ endif ()
+ 
+@@ -304,14 +304,14 @@
+         install(
+             TARGETS kfr_dft_sse2 kfr_dft_sse41 kfr_dft_avx kfr_dft_avx2
+                     kfr_dft_avx512
+-            ARCHIVE DESTINATION lib
+-            LIBRARY DESTINATION lib
++            ARCHIVE DESTINATION lib64
++            LIBRARY DESTINATION lib64
+             RUNTIME DESTINATION bin)
+     else ()
+         install(
+             TARGETS kfr_dft
+-            ARCHIVE DESTINATION lib
+-            LIBRARY DESTINATION lib
++            ARCHIVE DESTINATION lib64
++            LIBRARY DESTINATION lib64
+             RUNTIME DESTINATION bin)
+     endif ()
+ endif ()
