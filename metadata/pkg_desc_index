@@ -31,6 +31,7 @@ dev-libs/v2ray-geoip-bin 202302090046: GeoIP for V2Ray.
 dev-python/phonopy 2.17.0: Phonon calculations at harmonic and quasi-harmonic levels
 dev-python/seekpath 2.0.1: Obtain and visualize k-vector coefficients and obtain band paths.
 dev-python/spglib 2.0.2: Python bindings for spglib.
+dev-util/aocc-compiler 4.0.0: AMD Optimizing C/C++ and Fortran Compilers
 dev-util/intel-hpckit 2023.0.0.25400: Intel® oneAPI HPC Toolkit
 dev-util/nvhpc 23.1: NVIDIA HPC SDK
 dev-util/pnpm-bin 7.25.0: Fast, disk space efficient package manager
